@@ -1,0 +1,6739 @@
+[
+    {
+        "id": "s_070e7062",
+        "quenya": "Makili kirir orkor.",
+        "english": "Swords cut orcs.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "makil",
+            "kir-",
+            "orko"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ad797602",
+        "quenya": "I elda tuvë osto.",
+        "english": "The elf finds (or discovers) a city.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "elda",
+            "tuv-",
+            "osto"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_43f6de75",
+        "quenya": "Sílan.",
+        "english": "I am shining.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "sil-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e1605bc8",
+        "quenya": "I aran tíra aiwi.",
+        "english": "The king is watching birds.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "aran",
+            "tir-",
+            "aiwë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4ac92e6d",
+        "quenya": "I naukor nórar.",
+        "english": "The dwarves are running.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "nauko",
+            "nor-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_011bd6a7",
+        "quenya": "Atani samir köar.",
+        "english": "Men have houses.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "atan",
+            "sam-",
+            "köa"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8b955a0e",
+        "quenya": "Tirin eleni.",
+        "english": "I watch stars.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "tir-",
+            "elen"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_112a32a2",
+        "quenya": "I aiwi lorir.",
+        "english": "The birds sleep.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "aiwë",
+            "lor-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c905572d",
+        "quenya": "Samin aiwë.",
+        "english": "I have a bird.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "sam-",
+            "aiwë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b646210d",
+        "quenya": "I eleni silir.",
+        "english": "The stars shine.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "elen",
+            "sil-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_1ee1f285",
+        "quenya": "Orko kirë i taurë.",
+        "english": "An orc cuts the forest.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "orko",
+            "kir-",
+            "taurë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2d702d18",
+        "quenya": "I hesto lóra.",
+        "english": "The captain is sleeping.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "hesto",
+            "lor-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_693c8bde",
+        "quenya": "Aiwi mátar.",
+        "english": "Birds are eating.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "aiwë",
+            "mat-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_baf9e9c6",
+        "quenya": "Tíran i köa.",
+        "english": "I am watching the house.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "tir-",
+            "köa"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_17523e73",
+        "quenya": "I atani tuvir i eldar.",
+        "english": "The men find (or discover) the elves.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "atan",
+            "tuv-",
+            "elda"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9f788f97",
+        "quenya": "Eldar ménar.",
+        "english": "Elves are going.",
+        "type": [],
+        "eldamo-link": [
+            "1.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "elda",
+            "men-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d67a42c4",
+        "quenya": "Nóras.",
+        "english": "He/she is running.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "nor-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2d7e2513",
+        "quenya": "Tíralyë köanya.",
+        "english": "You are watching my house.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "tir-",
+            "lye",
+            "köa"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a18083f1",
+        "quenya": "kirin lye.",
+        "english": "I cut you.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "kir-",
+            "lye"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_3b00beb7",
+        "quenya": "Makilelyar sílar.",
+        "english": "Your swords are shining.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "makil",
+            "-(e)lya",
+            "sil-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0daf2a81",
+        "quenya": "Mátalyes.",
+        "english": "You are eating it.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "mat-",
+            "lye",
+            "se"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_03e405d3",
+        "quenya": "Aranya ména.",
+        "english": "His king is going.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "aran",
+            "-(r)ya",
+            "men-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_3f4d6743",
+        "quenya": "Tuvinyë i taurë.",
+        "english": "I find the forest.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "tuv-",
+            "-n(yë)",
+            "taurë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8f4d0f94",
+        "quenya": "I elda tiret.",
+        "english": "The elf watches them.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "elda",
+            "tir-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d6ce3c8f",
+        "quenya": "Samil (or Samilyë) makilinya.",
+        "english": "You have my sword.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "sam-",
+            "-l(yë)",
+            "makil",
+            "-(i)nya"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_14f83c2a",
+        "quenya": "I hesto tuvë taurelyar.",
+        "english": "The captain finds your forests.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "hesto",
+            "tuv-",
+            "taurë",
+            "-(e)lya"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_91bfae79",
+        "quenya": "I elda tirë ostorya.",
+        "english": "The elf watches his/her city.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "elda",
+            "tir-",
+            "osto",
+            "-(r)ya"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7d9e4f8f",
+        "quenya": "Ménan or Ménanyë.",
+        "english": "I am going.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "men-",
+            "-n(yë)"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0003f2d5",
+        "quenya": "I nauko tuvë ni.",
+        "english": "The dwarf finds me.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "nauko",
+            "tuv-",
+            "ni"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_98af8373",
+        "quenya": "Lóras or Lórassë.",
+        "english": "He/she is sleeping.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "lor-",
+            "-s(së)"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_de356f0f",
+        "quenya": "Orko mátas or Orko máta se.",
+        "english": "An orc is eating him/her.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "orko",
+            "mat-",
+            "se"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_18923f44",
+        "quenya": "Aranyar norir.",
+        "english": "His kings run.",
+        "type": [],
+        "eldamo-link": [
+            "1.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "aran",
+            "-(r)ya",
+            "nor-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_92d5cefe",
+        "quenya": "I turkë atani kirir i taurë sí.",
+        "english": "The strong men cut the forest now.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "turka",
+            "atan",
+            "kir-",
+            "taurë",
+            "sí"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4bbd42a1",
+        "quenya": "Orko linquë.",
+        "english": "An orc [is] wet.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "orko",
+            "linquë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_52481cb4",
+        "quenya": "Luinë aiwë lóra.",
+        "english": "A blue bird is sleeping.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "luinë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7260a93c",
+        "quenya": "I aran oialë tirë i osto.",
+        "english": "The king forever watches the city.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "aran",
+            "oialë",
+            "tir-",
+            "osto"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_691df828",
+        "quenya": "kirin i linta orko.",
+        "english": "I cut the swift orc.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "kir-",
+            "linta",
+            "orko"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_637eb51e",
+        "quenya": "kirin linta i orko.",
+        "english": "I cut swift[ly] the orc.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "kir-",
+            "linta",
+            "orko"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_cdef43d3",
+        "quenya": "I eldar tírar i alkarin elen.",
+        "english": "The elves are watching the glorious star.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "elda",
+            "tir-",
+            "alkarin",
+            "elen"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_fababb16",
+        "quenya": "Nalyë halla nauko.",
+        "english": "You are a tall dwarf.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "-l(yë)",
+            "halla",
+            "nauko"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c1b7c97f",
+        "quenya": "Aiwi menir palan.",
+        "english": "Birds go far.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "aiwë",
+            "men-",
+            "palan"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_34203438",
+        "quenya": "I qualini orkor luini.",
+        "english": "The dead orcs are blue.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "qualin",
+            "orko",
+            "luinë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_de9b71b5",
+        "quenya": "I hesto lorë mai.",
+        "english": "The captain sleeps well.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "hesto",
+            "lor-",
+            "mai"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_54cc56d6",
+        "quenya": "I mai melda aran máta.",
+        "english": "The well loved king is eating.",
+        "type": [],
+        "eldamo-link": [
+            "1.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "mai",
+            "melda",
+            "aran",
+            "mat-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4301e9bf",
+        "quenya": "I atan nóra i orkollor.",
+        "english": "The man is running from the orcs.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "atan",
+            "nor-",
+            "orko",
+            "-(e)llo"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_34977f5d",
+        "quenya": "Aiwi lórar i tauressë.",
+        "english": "Birds are sleeping in the forest.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "aiwë",
+            "lor-",
+            "taurë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e8e87c5d",
+        "quenya": "Naukor nu i ambor.",
+        "english": "Dwarves [are] under the hills.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "nauko",
+            "nu",
+            "ambo"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_bb4575f1",
+        "quenya": "I eleni silir menelessë.",
+        "english": "The stars shine in the heavens.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "elen",
+            "sil-",
+            "menel",
+            "-(e)ssë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_83297663",
+        "quenya": "I hesto atanion ú makilo.",
+        "english": "The captain of men [is] without a sword.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "hesto",
+            "atan",
+            "ú",
+            "makil"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_992f0cc5",
+        "quenya": "I aran sí menë ostoryanna.",
+        "english": "The king now goes to his city.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "aran",
+            "sí",
+            "men-",
+            "osto",
+            "-(r)ya",
+            "-(e)nna"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c4783c05",
+        "quenya": "I orko turka ve anga.",
+        "english": "The orc [is] strong like iron.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "orko",
+            "turka",
+            "ve",
+            "anga"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_52eb5755",
+        "quenya": "I atani menir et i ostollo.",
+        "english": "The men go out from the city.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "atan",
+            "men-",
+            "et",
+            "osto",
+            "-(e)llo"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_fb666eb0",
+        "quenya": "I nauko samë makil ango.",
+        "english": "The dwarf has a sword of iron.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "nauko",
+            "sam-",
+            "makil",
+            "anga"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e5127dbe",
+        "quenya": "Menel or i ambor.",
+        "english": "The sky [is] above the hills.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "menel",
+            "or",
+            "ambo"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0aa77855",
+        "quenya": "Mátan mindoninyassë or Mátan mi mindoninya.",
+        "english": "I am eating in my tower.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "mat-",
+            "mindon",
+            "-(i)nya",
+            "mi",
+            "-(e)ssë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_52229e07",
+        "quenya": "Qualini eldar lorir oialë i ambossen.",
+        "english": "Dead elves sleep forever in the hills.",
+        "type": [],
+        "eldamo-link": [
+            "1.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "qualin",
+            "elda",
+            "lor-",
+            "oialë",
+            "ambo",
+            "-(e)ssë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_596bc449",
+        "quenya": "I atan ar i nauko samir makili.",
+        "english": "The man and the dwarf have swords.",
+        "type": [],
+        "eldamo-link": [
+            "1.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "atan",
+            "ar",
+            "nauko",
+            "sam-",
+            "makil"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e69e4b20",
+        "quenya": "Makili i kirir orkor silir luini.",
+        "english": "Swords that cut orcs shine blue[ly].",
+        "type": [],
+        "eldamo-link": [
+            "1.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "makil",
+            "kir-",
+            "orko",
+            "sil-",
+            "luinë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f9acfb24",
+        "quenya": "Samis makil yallo orkor norir.",
+        "english": "He/she has a sword from which orcs run.",
+        "type": [],
+        "eldamo-link": [
+            "1.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "sam-",
+            "makil",
+            "ya",
+            "-(e)llo",
+            "orko",
+            "nor-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7845d116",
+        "quenya": "Tíran i hesto orkoron yenna i orkor menir.",
+        "english": "I am watching the captain of orcs to whom the orcs go.",
+        "type": [],
+        "eldamo-link": [
+            "1.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "tir-",
+            "hesto",
+            "orko",
+            "ye",
+            "-(e)nna",
+            "men-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_86a5e551",
+        "quenya": "Eldar lorir i (“the”) tauressë i (“that”) orkor kirir.",
+        "english": "Elves sleep in the forest that orcs cut.",
+        "type": [],
+        "eldamo-link": [
+            "1.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "elda",
+            "lor-",
+            "taurë",
+            "orko",
+            "kir-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_5c29b511",
+        "quenya": "Atani tuvir i taurë yassë i eldar lorir.",
+        "english": "Men find the forest where [= in which] the elves sleep.",
+        "type": [],
+        "eldamo-link": [
+            "1.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "atan",
+            "tuv-",
+            "taurë",
+            "ya",
+            "-(e)ssë",
+            "elda",
+            "lor-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8660cec6",
+        "quenya": "Eldar nórar i orkollon i kírar i taurë.",
+        "english": "Elves are running from the orcs who are cutting the forest.",
+        "type": [],
+        "eldamo-link": [
+            "1.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "elda",
+            "nor-",
+            "orko",
+            "-(e)llo",
+            "kir-",
+            "taurë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_48c04279",
+        "quenya": "Atani ar naukor ménar i taurenna yallo i eldar norir.",
+        "english": "Men and dwarves are going to the forest from which the elves run.",
+        "type": [],
+        "eldamo-link": [
+            "1.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "atan",
+            "ar",
+            "nauko",
+            "men-",
+            "taurë",
+            "-(e)nna",
+            "ya",
+            "-(e)llo",
+            "elda",
+            "nor-"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f78faed7",
+        "quenya": "I rotto latë nu oron.",
+        "english": "The cave lies (is situated) under a mountain.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "rotto",
+            "lat-",
+            "oron"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_dc9e392b",
+        "quenya": "Elda séra i opelessë.",
+        "english": "An elf is resting/tarrying in the village.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "elda",
+            "ser-",
+            "opele",
+            "-(e)ssë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_12a6d0ea",
+        "quenya": "Tië tulyanë i atan i nórenna.",
+        "english": "A road led the man to the country.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "tië",
+            "tul-",
+            "atan",
+            "nórë",
+            "-(e)nna"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b85d04cc",
+        "quenya": "I men menë oialë.",
+        "english": "The way goes forever.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "men",
+            "men-",
+            "oialë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_56e8cd46",
+        "quenya": "I naukor váner i rottollo.",
+        "english": "The dwarves departed from the cave.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "nauko",
+            "auta-",
+            "rotto",
+            "-(e)llo"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ea307e90",
+        "quenya": "I hesto tolunë ara raxarya.",
+        "english": "The captain stood up beside his/her wagon.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "hesto",
+            "tolu-",
+            "ara",
+            "raxa",
+            "-(r)ya"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_89bd663f",
+        "quenya": "I tië mennë et i nandollo.",
+        "english": "The road went out from the valley.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "tie",
+            "men-",
+            "nan(do)",
+            "-(e)llo"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2cf95e42",
+        "quenya": "Sí anyëan i mindon.",
+        "english": "Now I am arriving at the tower.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "anya-",
+            "mindon"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e58ab790",
+        "quenya": "Táral nu i telumë.",
+        "english": "You are standing under the roof.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "tar-",
+            "telumë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d5790a84",
+        "quenya": "I sírë kelu nu i yanta.",
+        "english": "The river flows under the bridge.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "sírë",
+            "kelu",
+            "yanta"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_15c6ea4e",
+        "quenya": "I atan mennë i ostonna.",
+        "english": "The man went to the city.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "atan",
+            "men-",
+            "osto",
+            "-(e)nna"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d8d853e3",
+        "quenya": "Autëas i taurello.",
+        "english": "He/she is departing from the forest.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "auta-",
+            "taurë",
+            "-(e)llo"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6fa03049",
+        "quenya": "I orkor marir nu i oron.",
+        "english": "The orcs dwell under the mountain.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "orko",
+            "mar-",
+            "oron"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ee128df3",
+        "quenya": "I hesto tultanë elda.",
+        "english": "The captain sent for an elf.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "hesto",
+            "tulta-",
+            "elda"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_979927e5",
+        "quenya": "I sírë latë ara nórelya.",
+        "english": "The river lies beside your country.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "sírë",
+            "lat-",
+            "nórë"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c6c17929",
+        "quenya": "Mallë tulya ni i mindonello.",
+        "english": "A street leads me from the tower.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "mallë",
+            "tulya-",
+            "mindon"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_5429ecf3",
+        "quenya": "I noirë harë ambossë.",
+        "english": "The tomb sits on a hill.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "noirë",
+            "har-",
+            "ambo"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9ae115e7",
+        "quenya": "Nauko hárua köalyassë or mi köalya.",
+        "english": "A dwarf is sitting down in your house.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            "nauko",
+            "har-",
+            "koa"
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6e661c3c",
+        "quenya": "I mindon tára ar’ ailin.",
+        "english": "The tower is standing by a lake.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_eaf97391",
+        "quenya": "I aran lendë Endorenna.",
+        "english": "The king traveled to Middle-earth.",
+        "type": [],
+        "eldamo-link": [
+            "2.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0b663e0e",
+        "quenya": "Meldonya tyelka.",
+        "english": "My friend [is] hasty.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9367d772",
+        "quenya": "I nitya nauko nís.",
+        "english": "The small dwarf [is] a woman.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4c10f023",
+        "quenya": "I oronti aiquë.",
+        "english": "The mountains [are] steep.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_eb400acd",
+        "quenya": "Seldolya senna quén.",
+        "english": "Your boy [is] a short person.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c98f9353",
+        "quenya": "I netti náner márë meldi.",
+        "english": "The girls were good friends.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d4fe8e74",
+        "quenya": "Nanyë lenka sí.",
+        "english": "I am slow now.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_52b6e8f9",
+        "quenya": "Nauval qualin.",
+        "english": "You will be dead.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_be796052",
+        "quenya": "I raika sírë i kelu ar’ i osto núra ná.",
+        "english": "The crooked river that flows by the city is deep.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_45afc7b4",
+        "quenya": "I aiwi i atani fárëar lintë nár.",
+        "english": "The birds that men are hunting are swift.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e7e9fd04",
+        "quenya": "Quilda ná.",
+        "english": "It is quiet.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_17b0d1a8",
+        "quenya": "Hínarya nitya.",
+        "english": "His/her child is small.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_cf5c8c85",
+        "quenya": "I núra nando náha.",
+        "english": "The deep valley is narrow.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e2225477",
+        "quenya": "I neri meldor.",
+        "english": "The men [males] are friends.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a397dc04",
+        "quenya": "Térë síri yánë.",
+        "english": "Straight rivers are wide.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_59b72bdf",
+        "quenya": "I hallë mindoni náner raikë.",
+        "english": "The tall towers were crooked.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ffeb3097",
+        "quenya": "Nauvan polda.",
+        "english": "I will be burly.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2fbc8c0c",
+        "quenya": "I periandi nauvar tiukë.",
+        "english": "The halflings will be fat.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ba27286c",
+        "quenya": "Urra ná.",
+        "english": "It is bad.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_97ce67b0",
+        "quenya": "I perian i nóra i tauressë linta ná.",
+        "english": "The halfling who is running in the forest is swift.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e11c5da9",
+        "quenya": "I eldar i tírar i aran quildë nár.",
+        "english": "The elves who are watching the king are quiet.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_46596514",
+        "quenya": "I nissi marir i ostossë.",
+        "english": "The women are in the city [semi-permanently].",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_87851020",
+        "quenya": "I köa harë i ambossë.",
+        "english": "The house is on the hill.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9d52099c",
+        "quenya": "I tië latë nu i yanta.",
+        "english": "The road is under the bridge.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4df102ca",
+        "quenya": "I elda serë i köassë. Alternately harë.",
+        "english": "The elf is in the house [temporarily].",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6f4e5e33",
+        "quenya": "I mindoni tarir i tauressë.",
+        "english": "The towers are in the forest.",
+        "type": [],
+        "eldamo-link": [
+            "2.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_934a8531",
+        "quenya": "I kirya luntë et i ëarello ar mí londenna.",
+        "english": "The ship sailed out of the sea and in to the harbour.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_68f4fd15",
+        "quenya": "I nér i hára i falassessë kiryamo ná.",
+        "english": "The man [male] that is sitting on the shore is a sailor.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ba799b55",
+        "quenya": "I tyulma tára halla i luntessë.",
+        "english": "The mast is standing tall on the boat.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2609580e",
+        "quenya": "Kiryar lutir ëaressë mal aiwi vilir vilyassë.",
+        "english": "Ships sail on [the] sea but birds fly in [the] sky.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6b209099",
+        "quenya": "Isil sílë i ambonna.",
+        "english": "The moon shone on the hill.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_1e7803de",
+        "quenya": "Lauka hwesta i ostossë mára ná.",
+        "english": "A warm breeze in the city is good.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_5f476a6e",
+        "quenya": "Anar kála ar i aiwi vílar vilyassë.",
+        "english": "The sun is shining and the birds are flying in the sky.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_07fe6535",
+        "quenya": "Lumbor lutir fanyaressë.",
+        "english": "Dark clouds float in the sky.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2431b546",
+        "quenya": "Falma i ailinessë nitya ná mal falma i ëaressë höa ná.",
+        "english": "A wave on the lake is small, but a wave on the sea is large.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8261e2c6",
+        "quenya": "I súrë turwa sí.",
+        "english": "The wind is strong now.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b04ead32",
+        "quenya": "Atan hya nauko tirë kemen mal elda tirë menel.",
+        "english": "A man or a dwarf watches the earth but an elf watches the sky.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ec2b4031",
+        "quenya": "I nissi túler i tollenna yassë i eldar marir.",
+        "english": "The women came to the island where (= on which) the elves live.",
+        "type": [],
+        "eldamo-link": [
+            "2.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_99c5c7c0",
+        "quenya": "Lëa melë Oren ar Oren melë Lëa.",
+        "english": "Lëa loves Oren and Oren loves Lëa.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_febb7a3e",
+        "quenya": "Lëa ar Oren vestaner i tauressë.",
+        "english": "Lëa and Oren married in the forest.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4efc64c4",
+        "quenya": "Nosserya túlë i veryanwenna, mal nossë Oreno vánë i taurello.",
+        "english": "Her family came to the wedding, but Oren’s family left the forest.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4dd13c81",
+        "quenya": "Atarya tarnë ara Lëa.",
+        "english": "More literally: ... the family of Oren departed from the forest.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0a7fe236",
+        "quenya": "Amillë Lëo tirnë i ambollo.",
+        "english": "Her father stood beside Lëa.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_3e93fa06",
+        "quenya": "Nilderya Kissë nánë tanomë yú.",
+        "english": "Lëa’s mother (or the mother of Lëa) watched from the hill.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_979198ee",
+        "quenya": "I vesta nánë mára.",
+        "english": "Her [casual] friend Cissë was there also.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9cb063e0",
+        "quenya": "Lëa ar Oren ontaner yondo Miro.",
+        "english": "Lëa and Oren conceived [begat] a son Miro.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8bb89393",
+        "quenya": "Lëa mélë i yondo veruryo.",
+        "english": "Lëa loved the son of her husband.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_34412842",
+        "quenya": "Tá Lëa nostanë yeldë Tilë.",
+        "english": "Then Lëa gave birth to a daughter Tilë.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_23b2b6d8",
+        "quenya": "Tilë melë hánorya Miro.",
+        "english": "Tilë loves her brother Miro.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_76963fc3",
+        "quenya": "Miro tirë nésarya Tilë yá nostaryar menir i ostonna.",
+        "english": "Miro watches his sister Tilë when his parents go to the city.",
+        "type": [],
+        "eldamo-link": [
+            "2.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0709ffb6",
+        "quenya": "Essenya Lëa.",
+        "english": "My name [is] Lëa.",
+        "type": [],
+        "eldamo-link": [
+            "3.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_45ed8389",
+        "quenya": "Elerondo nyarnë i lúmequenta eldaron andanéya Arakornon.",
+        "english": "Elrond told the history of Elves long ago to Aragorn.",
+        "type": [],
+        "eldamo-link": [
+            "3.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4422cff4",
+        "quenya": "I nettë téka tengwar tekilmen.",
+        "english": "The girl is writing letters with a pen.",
+        "type": [],
+        "eldamo-link": [
+            "3.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_29225294",
+        "quenya": "I atan quéta i neren.",
+        "english": "The man [human] is speaking to the man [male].",
+        "type": [],
+        "eldamo-link": [
+            "3.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8a06b695",
+        "quenya": "Yallen yeldenya ómanyanen.",
+        "english": "I called my daughter with my voice.",
+        "type": [],
+        "eldamo-link": [
+            "3.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e6970718",
+        "quenya": "Estëan yondonya Miro.",
+        "english": "I am naming my son Miro.",
+        "type": [],
+        "eldamo-link": [
+            "3.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_47a25bb0",
+        "quenya": "Tenkel parma hyalinwen.",
+        "english": "You wrote a book with paper.",
+        "type": [],
+        "eldamo-link": [
+            "3.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d967daf1",
+        "quenya": "I nís henta parmar i aranen.",
+        "english": "The woman reads books to the king.",
+        "type": [],
+        "eldamo-link": [
+            "3.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ebd5f43c",
+        "quenya": "I nettë quentë quetta amilleryan.",
+        "english": "The girl spoke a word to her mother.",
+        "type": [],
+        "eldamo-link": [
+            "3.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0ac160fe",
+        "quenya": "I nauko antanë tekil i seldon.",
+        "english": "The dwarf gave a pen to the boy.",
+        "type": [],
+        "eldamo-link": [
+            "3.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_123e502b",
+        "quenya": "Liltëaldë i ambossen.",
+        "english": "You (plural) are dancing on the hills.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f28003c4",
+        "quenya": "Nyarnetyë lairetya ar nánes mára.",
+        "english": "You (familiar) recited your poem and it was good.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_5edc00fb",
+        "quenya": "Simpalya lirë nin.",
+        "english": "Your (polite) flute sings to me.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4046f130",
+        "quenya": "Lindalë yalë fëalvar.",
+        "english": "Music calls our spirits.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_39529eff",
+        "quenya": "Túvelmë i orko ar tíralmes sí.",
+        "english": "We (but not you) found the orc and we (but not you) are watching him/her now.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_672e1f04",
+        "quenya": "Lírelvar lairi eldaron nár, ar nanta márë.",
+        "english": "Our (including you) songs are poems of elves, and they (inanimate) are good.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d405a502",
+        "quenya": "Tekilya nánë linta ar liltanes i hyalinessë.",
+        "english": "His pen was swift and it danced on the paper.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e1268ad4",
+        "quenya": "Yondonta lírua ven.",
+        "english": "Their son is singing gaily to us (including you).",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_257e91cd",
+        "quenya": "Samityë luine nyellë.",
+        "english": "You (familiar) have a blue bell.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0faef321",
+        "quenya": "Tompaldar yálar te.",
+        "english": "Your (plural) drums are calling them.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_1397d210",
+        "quenya": "Lirnelmë aranelvan.",
+        "english": "We (but not you) sang for our (including you) king.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ebe35cf9",
+        "quenya": "I lindo sámë nandenya.",
+        "english": "The singer had my harp.",
+        "type": [],
+        "eldamo-link": [
+            "3.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_47deaca1",
+        "quenya": "Aiya! Ma tékal parma?",
+        "english": "Hail! Are you writing a book?",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e772d217",
+        "quenya": "Ná. Nauvas mára.",
+        "english": "Yes. It will be good.",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0920235d",
+        "quenya": "A, merin henta sa.",
+        "english": "Oh, I want to read it.",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a0c1a86e",
+        "quenya": "Á anta i tekil nin, mekin.",
+        "english": "Give the pen to me, please.",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9845c7c4",
+        "quenya": "Káran sa sí.",
+        "english": "I am doing it now.",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_11b3d2a7",
+        "quenya": "Hantan lyen. Márienna.",
+        "english": "Thank you. (Go) to happiness.",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_5f1a4da0",
+        "quenya": "Máriessë. Mára ná i túlel, tar.",
+        "english": "(Stay) in happiness. It is good that you came, sir.",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_97df52ce",
+        "quenya": "Ná, hesto. Kenin i karnel i makil.",
+        "english": "Yes, captain. I see that you made the sword.",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_511e3fed",
+        "quenya": "Ela! Karnenyes lyen, araninya.",
+        "english": "Behold! I made it for you, my king.",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e4263dfe",
+        "quenya": "Fastas ni mai.",
+        "english": "It pleases me well.",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_3e09075c",
+        "quenya": "Antëanyes lyen, araninya.",
+        "english": "I am giving it to you, my king.",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_32b85497",
+        "quenya": "Merin fara orkor sanen. Namárië!",
+        "english": "I want to hunt orcs with it. Farewell!",
+        "type": [],
+        "eldamo-link": [
+            "3.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_3ead5e90",
+        "quenya": "Á tulë i taurenna lúmessë andúnëo.",
+        "english": "Come to the forest at the hour of sunset.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_299543ac",
+        "quenya": "Kenuvan amillenya enar.",
+        "english": "I will see my mother tomorrow.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_43038d11",
+        "quenya": "Merin serë lómessë.",
+        "english": "I want to rest at night.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_31bfdc55",
+        "quenya": "Isil oryuva amba rómenessë.",
+        "english": "The moon will rise up in the east.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d4956c60",
+        "quenya": "Nai Anar kaluva tyenna síra.",
+        "english": "May the Sun shine on you (familiar) today.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_55122bbb",
+        "quenya": "Yá kenin Valinorenna, formen forya ar hyarmen hyarya.",
+        "english": "When I look towards Valinor, north [is] right and south [is] left.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2d8baafd",
+        "quenya": "Nai ambarónë lauka len (ná).",
+        "english": "May the dawn be warm for you (plural).",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9d7e0a8b",
+        "quenya": "I oron haiya mal kenuvalves i arinessë.",
+        "english": "The mountain is far away but we (including you) will see it in the morning.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6038e43d",
+        "quenya": "Á harë ré i rottossë.",
+        "english": "Stay a day (24 hours) in the cave.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4136c518",
+        "quenya": "Isil menuva undu númenessë.",
+        "english": "The Moon will go down in the west.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_392bb0fa",
+        "quenya": "Anar kalë i auressë.",
+        "english": "The Sun shines in the day.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6718eeba",
+        "quenya": "Túlen i mindonenna nöa.",
+        "english": "I came to the tower yesterday.",
+        "type": [],
+        "eldamo-link": [
+            "3.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_20b317b1",
+        "quenya": "I atan hirnë i osto.",
+        "english": "The man found the city.",
+        "type": [],
+        "eldamo-link": [
+            "4.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_72ee171c",
+        "quenya": "Isil síla sí or tië.",
+        "english": "The moon is shining now above a road.",
+        "type": [],
+        "eldamo-link": [
+            "4.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_884ea2ce",
+        "quenya": "I perian matuva aiwë enar.",
+        "english": "The halfling will eat a bird tomorrow.",
+        "type": [],
+        "eldamo-link": [
+            "4.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_cb741b0a",
+        "quenya": "I nís merë marë mi taurë.",
+        "english": "The woman wants to live in a forest.",
+        "type": [],
+        "eldamo-link": [
+            "4.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0eb99d1a",
+        "quenya": "I nauko fárëa i orkor nu i oron.",
+        "english": "The dwarf is hunting the orcs under the mountain.",
+        "type": [],
+        "eldamo-link": [
+            "4.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_130fa30a",
+        "quenya": "Aiwi vilir nu menel.",
+        "english": "Birds fly under the heavens/sky.",
+        "type": [],
+        "eldamo-link": [
+            "4.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_dbcddda4",
+        "quenya": "Ninqui axor naukoron kaitar nu i oron.",
+        "english": "[The] white bones of dwarves lie under the mountain.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7bda53fd",
+        "quenya": "Luini aiwi vílar or i andë tiër.",
+        "english": "Blue birds are flying above the long roads.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c7bebc2d",
+        "quenya": "I atano serkë karnë.",
+        "english": "The man’s blood [is] red.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9d07c0de",
+        "quenya": "Kalmar kálar laurië i ostossë.",
+        "english": "Lamps are shining golden[ly] in the city.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ad41f345",
+        "quenya": "Kenin varni leperi máryo.",
+        "english": "I see [the] brown fingers of his/her hand.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_038c12f8",
+        "quenya": "Mornë homi orquion serir amborintassë.",
+        "english": "[The] black hearts of orcs rest in their chest.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_27f5a971",
+        "quenya": "I serkë-quilië mindoni tarir i ambossen.",
+        "english": "The blood-coloured towers stand on the hills.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_00001ec0",
+        "quenya": "Híni samir nityë piri.",
+        "english": "Children have little toes.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_30f7fe2d",
+        "quenya": "Turkë ranqui karir turwë atani.",
+        "english": "Strong arms make powerful men.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_dad46727",
+        "quenya": "I hesto kirnë i orquion telqui or telqui i orquion.",
+        "english": "The captain cut the orcs’ legs.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_5b548181",
+        "quenya": "Nékë fánë fanyar vilir fanyaressë.",
+        "english": "Pale white clouds fly in the sky.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_61cb36bc",
+        "quenya": "I sindë eldar marir laikë tauressen.",
+        "english": "The grey elves dwell in green forests.",
+        "type": [],
+        "eldamo-link": [
+            "4.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_49432bc0",
+        "quenya": "I nér maxëa apsa.",
+        "english": "The man [male] is cooking meat.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ff53f74c",
+        "quenya": "I seldo antanë yávi i netten.",
+        "english": "The boy gave fruits to the girl.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_dd9b1c3c",
+        "quenya": "Amillenya mastëa massa sí.",
+        "english": "My mother is baking bread now.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d7dcae94",
+        "quenya": "Atarelya nankë i orva.",
+        "english": "Your father bit the apple.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ef8aacb6",
+        "quenya": "Eldar karir miruvórë nehtenen.",
+        "english": "Elves make mead with honey.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_78edb7ab",
+        "quenya": "Quëar ar yávi mára matta (nár).",
+        "english": "Vegetables and fruits are good food.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_65a4b831",
+        "quenya": "I veru ulyanë limpë veriryan.",
+        "english": "The husband poured wine for his wife.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ad888401",
+        "quenya": "Á anta nin yulma neno.",
+        "english": "Give [to] me a cup of water.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_faeaedda",
+        "quenya": "Matuvalvë mat ó i periandi síra.",
+        "english": "We [and you] will eat a meal [together] with the halflings today.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ab914d7b",
+        "quenya": "Merin yulda limpëo sí.",
+        "english": "I want a drink of wine now.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8d6d9efa",
+        "quenya": "Lável mánya lambalyanen.",
+        "english": "You licked my hand with [by means of] your tongue.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4902d54a",
+        "quenya": "I nís mantë kuluma.",
+        "english": "The woman ate an orange.",
+        "type": [],
+        "eldamo-link": [
+            "4.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_3a1f5d40",
+        "quenya": "Nís rendë erdi restaryassë.",
+        "english": "A woman sowed seeds in her field.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ad16d346",
+        "quenya": "Olvali alaner lintë tanomë.",
+        "english": "Some plants grew swift[ly] there.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b959588e",
+        "quenya": "I nís nemnë alassëa restaryassë.",
+        "english": "The woman seemed happy in her field.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d25f71bd",
+        "quenya": "Matta launë i nissen.",
+        "english": "Food abounded to the woman (= the woman had lots of food).",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a05521be",
+        "quenya": "I nís mastanë massa.",
+        "english": "The woman baked bread.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e7e08601",
+        "quenya": "Nettë kambë massa i nissello.",
+        "english": "A girl received bread from the woman.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6040358d",
+        "quenya": "Seldoli rapper i massa i nettello.",
+        "english": "Some boys snatched the bread from the girl.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8edd3de9",
+        "quenya": "I nettë lakkë telko seldo.",
+        "english": "The girl kicked the leg of a boy.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_1de871ef",
+        "quenya": "I seldor hlasser i nettë yalë i hesto.",
+        "english": "The boys heard the girl call the captain.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_fda9e97c",
+        "quenya": "Nirnentë i nettë öa ar nornentë i hestollo.",
+        "english": "They pushed the girl away and they ran from the captain.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7d2ed370",
+        "quenya": "I hesto kensë i osto i seldoin.",
+        "english": "The captain searched the city for the boys.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ecd0f76d",
+        "quenya": "I telumë tumpë i híni.",
+        "english": "The roof covered the children.",
+        "type": [],
+        "eldamo-link": [
+            "4.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0ebbbf9a",
+        "quenya": "Kalali kálar i ostossë.",
+        "english": "Some lights are shining in the city.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8f93a6b9",
+        "quenya": "Uluva enar.",
+        "english": "[It] will rain tomorrow.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_bb6d8ddf",
+        "quenya": "I taurë lauka síra.",
+        "english": "The forest [is] warm today.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_61b90cc6",
+        "quenya": "I rottossë morë ná.",
+        "english": "In the cave [it] is dark.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_1693aaff",
+        "quenya": "Hrísa ar i lossë ringa.",
+        "english": "[It] is snowing and the snow [is] cold.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b2b82486",
+        "quenya": "Nikunë nöa.",
+        "english": "[It] was cold yesterday.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ba897ca5",
+        "quenya": "Nárë úra.",
+        "english": "Fire [is] hot.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c26067d6",
+        "quenya": "Nén linquë.",
+        "english": "Water [is] wet.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4ff90ebd",
+        "quenya": "Helkë ringa.",
+        "english": "Ice [is] cold.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c5db6743",
+        "quenya": "Á tinta nárë, mekin.",
+        "english": "Light [kindle] a lamp, please.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c5852fb4",
+        "quenya": "I vista lauka i koässë.",
+        "english": "The air is warm in the house.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_82d6201c",
+        "quenya": "Olvar alar kemenessë.",
+        "english": "Plants grow in the earth.",
+        "type": [],
+        "eldamo-link": [
+            "4.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9e1de77d",
+        "quenya": "Hendunya tírat i orko atta.",
+        "english": "My (pair of) eyes are watching the two orcs.",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7924513e",
+        "quenya": "I nauko fanga ninquë yo sinda.",
+        "english": "The dwarf’s beard [is] both white and grey.",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7ba47bd3",
+        "quenya": "Súlerya autëa peu i atano lenka.",
+        "english": "His/her breath is leaving the man’s [human’s] lips slow[ly].",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_92e6f671",
+        "quenya": "I hínat samit laurëa findë.",
+        "english": "The pair of children have golden hair.",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_fff3a4a9",
+        "quenya": "I elda nustanë i nísima hwesta.",
+        "english": "The elf smelled the fragrant breeze.",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_070e4cd5",
+        "quenya": "Hlarin hlón i tauressë.",
+        "english": "I hear a noise in the forest.",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0d65632b",
+        "quenya": "Ma hlarulya hlaret i arano quettar?",
+        "english": "Do your ears hear the king’s words?",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f53baa5f",
+        "quenya": "I aiwet lirnet i aldassë.",
+        "english": "The pair of birds sang in the tree.",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_fe0789cc",
+        "quenya": "Lambarya tyávë sára quëa.",
+        "english": "His tongue tasted a bitter vegetable.",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8620935d",
+        "quenya": "Aiwi vilir or nór yo ëar.",
+        "english": "Birds fly above both land and sea.",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_57f326e6",
+        "quenya": "I perian mantë lissë orva ar’ i aldu.",
+        "english": "The halfling ate a sweet apple beside the pair of trees.",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_647962b1",
+        "quenya": "Nustan saura orko.",
+        "english": "I smell a stinking orc.",
+        "type": [],
+        "eldamo-link": [
+            "5.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_64429326",
+        "quenya": "I perian álëa matta liëryan.",
+        "english": "The halfling is growing food for his/her people.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e7c3e139",
+        "quenya": "I nettë kirnë salquë ataryan.",
+        "english": "The girl cut grass for her father.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_83730374",
+        "quenya": "I erdi tuianer úrenen Anaro.",
+        "english": "The seeds sprouted in [by means of] the heat of the Sun.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_383d8038",
+        "quenya": "I nís tiruva hínali i naukoin.",
+        "english": "The woman will watch (some) children for the dwarves.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e6daea8e",
+        "quenya": "I hesto quentë i aranen.",
+        "english": "The captain spoke to the king.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_714e8ac8",
+        "quenya": "Lóti márë nin (nár).",
+        "english": "Flowers (are) good to me = I like flowers.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_443f1199",
+        "quenya": "I naukor sapir malta aranintan.",
+        "english": "The dwarves dig gold for their king.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2fac7c12",
+        "quenya": "Lóti lostar auressë.",
+        "english": "Flowers bloom in daytime.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0e22005d",
+        "quenya": "Tarwa mára olvain (ná).",
+        "english": "A garden [is] good for plants.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_84c341d9",
+        "quenya": "I eldar antaner makilli i atanin.",
+        "english": "The elves gave some swords to the men.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a5b57126",
+        "quenya": "Alda aluva i restassë.",
+        "english": "A tree will grow in the field.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_990192fe",
+        "quenya": "I nér maxanë mat i perianden.",
+        "english": "The man [male] cooked a meal for the halfling.",
+        "type": [],
+        "eldamo-link": [
+            "5.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_96e94d45",
+        "quenya": "Akápien minna i sírë.",
+        "english": "I have jumped into the river.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_62c50345",
+        "quenya": "I kirya ulútië i londessë.",
+        "english": "The ship has floated in the harbour.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_5839535d",
+        "quenya": "I aran orortanië makilya.",
+        "english": "The king has raised his sword.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_974ea66d",
+        "quenya": "I sírë ekélië i orontello.",
+        "english": "The river has flowed from the mountain.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7b95fd15",
+        "quenya": "I nauko ihílië i atan.",
+        "english": "The dwarf has followed the man.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f007f9f7",
+        "quenya": "I köa atalantië i lómessë.",
+        "english": "The house has collapsed in the night.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_11bdf0c8",
+        "quenya": "I elda onórië i taurenna.",
+        "english": "The elf has run to the forest.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_44afee7b",
+        "quenya": "I seldo inírië i nettë.",
+        "english": "The boy has pushed the girl.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_3fb870b2",
+        "quenya": "I atan apátië i ostonna.",
+        "english": "The man has walked to the city.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b44d40a1",
+        "quenya": "Alanties i tarwassë.",
+        "english": "He/she has fallen in the garden.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_19c2fe41",
+        "quenya": "I nér orórië i arinessë.",
+        "english": "The man [male] has risen in the morning.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d8aeb81f",
+        "quenya": "I hesto ahyaltië i nyellë.",
+        "english": "The captain has struck the bell.",
+        "type": [],
+        "eldamo-link": [
+            "5.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_736980de",
+        "quenya": "I nauko ui halla",
+        "english": "The dwarf is not tall.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_003e86dc",
+        "quenya": "Únen verya.",
+        "english": "I was not brave.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_804e5fe5",
+        "quenya": "I atani uir laituva i aran.",
+        "english": "The men will not praise the king.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9e912653",
+        "quenya": "Áva menë i ostonna síra.",
+        "english": "Do not go to the city today.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_663b53b6",
+        "quenya": "Ván! Ván menuva i ostonna.",
+        "english": "I won’t! I will not go to the city.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_962a7718",
+        "quenya": "I aran váquentë i voronda hesto auta.",
+        "english": "The king forbade the loyal captain to leave.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7290e212",
+        "quenya": "I orko ui vanima.",
+        "english": "The orc is not beautiful.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6e9cd972",
+        "quenya": "Áva verya i raxë i rottossë.",
+        "english": "Do not dare the danger in the cave.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_001fd109",
+        "quenya": "Ván! Ván karuva ulka nat.",
+        "english": "I won’t! I will not do an evil thing.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_61e873cf",
+        "quenya": "I aran úne manë.",
+        "english": "The king was not good [moral].",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_688a4ae2",
+        "quenya": "I seldo oluva maira.",
+        "english": "The boy will become admirable.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_67b504be",
+        "quenya": "I seldo aptanë menë i ostonna.",
+        "english": "The boy refused to go to the city.",
+        "type": [],
+        "eldamo-link": [
+            "5.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_99c87127",
+        "quenya": "Ohta túlë i nórenna.",
+        "english": "War came to the land.",
+        "type": [],
+        "eldamo-link": [
+            "6.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c328f91b",
+        "quenya": "I hesto tirnë i kottor i ambollo.",
+        "english": "The captain watched the enemies from the hill.",
+        "type": [],
+        "eldamo-link": [
+            "6.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7e1036a2",
+        "quenya": "Kánor i orkoron kostaner (or orquion).",
+        "english": "The commanders of the orcs quarrelled.",
+        "type": [],
+        "eldamo-link": [
+            "6.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_089d8eba",
+        "quenya": "I hesto ortanë ehtirya ar yallë i ohtari.",
+        "english": "The captain raised his/her spear and called the warriors.",
+        "type": [],
+        "eldamo-link": [
+            "6.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d7e0cabd",
+        "quenya": "I ohtari mahtaner i orkor makilínen (or orqui).",
+        "english": "The warriors fought the orcs with swords.",
+        "type": [],
+        "eldamo-link": [
+            "6.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_34fa4988",
+        "quenya": "Varyanentë i hesto sandainen.",
+        "english": "They protected the captain with shields.",
+        "type": [],
+        "eldamo-link": [
+            "6.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7367efc9",
+        "quenya": "I roqueni turuner i kottor ar rehtaner i eldar.",
+        "english": "The knights defeated the enemies and rescued the elves.",
+        "type": [],
+        "eldamo-link": [
+            "6.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b7e8c7a2",
+        "quenya": "I taurë nánë varna ar rainë entúlë.",
+        "english": "The forest was safe and peace returned (“to return” =entul-).",
+        "type": [],
+        "eldamo-link": [
+            "6.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_99bf32e7",
+        "quenya": "Aiweli viller vilyassë.",
+        "english": "Some birds flew in the sky (or in the air).",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2e67fc8e",
+        "quenya": "Rákali fárëar lopoldi.",
+        "english": "Some wolves are hunting rabbits.",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_eb338125",
+        "quenya": "Alquali lútar i ailinessë.",
+        "english": "Some swans are floating in the lake.",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_75a72564",
+        "quenya": "Porokéli ontaner ohteli.",
+        "english": "Some chickens birthed (or laid) some eggs.",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c0e3cac1",
+        "quenya": "Rauroli amátier mámali.",
+        "english": "Some lions have eaten some sheep.",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_70829dec",
+        "quenya": "Leukali serir salquessë.",
+        "english": "Some snakes rest in grass.",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_3d59fbcf",
+        "quenya": "Lamneli farar ar lamneli uir fara.",
+        "english": "Some animals hunt and some animals do not hunt.",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_de28def5",
+        "quenya": "Lingwili matir ëaruilë.",
+        "english": "Some fish eat seaweed (ëaruilë).",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f09108f1",
+        "quenya": "Miuyeli roitëar nyarroli.",
+        "english": "Some cats are chasing (roita-) some rats.",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_393e15ff",
+        "quenya": "Huoli tirner i yaxi.",
+        "english": "Some dogs watched the cows.",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7120feb2",
+        "quenya": "Rokkoli onórier i sírinna.",
+        "english": "Some horses have run to the river.",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a87ad9d5",
+        "quenya": "Morkoli mahtaner i urulókë.",
+        "english": "Some bears fought the dragon.",
+        "type": [],
+        "eldamo-link": [
+            "6.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a84f20a1",
+        "quenya": "Ohtaro hesto.",
+        "english": "A warrior’s captain.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2234e8e7",
+        "quenya": "I eldava köa.",
+        "english": "The elf’s house.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7e71099c",
+        "quenya": "Arano ohtari.",
+        "english": "A king’s warriors.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f223e6b2",
+        "quenya": "Ohtarwa makil.",
+        "english": "A warrior’s sword.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_85406573",
+        "quenya": "Yávi aldaron.",
+        "english": "Fruits of trees.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0878e9e4",
+        "quenya": "Yesta’n aurëo.",
+        "english": "Beginning of the day.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_cb7c8e84",
+        "quenya": "Mindoni ohto.",
+        "english": "Towers of war.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_637c65de",
+        "quenya": "Ohtarívë makili.",
+        "english": "Warriors’ swords.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c9ef88fe",
+        "quenya": "I arano alkar or i aranwa alkar.",
+        "english": "The king’s glory.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_408b6c87",
+        "quenya": "Köa alassëo or köa alasseva.",
+        "english": "A house of joy (alassë).",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f65f95e0",
+        "quenya": "Kennelvë i aran ep’ ambarónë.",
+        "english": "We (and you) saw the king after dawn.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_37adf0d0",
+        "quenya": "I yára elda quéta i nessa atanen sí.",
+        "english": "The old elf is speaking to the young man now.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_956dda0f",
+        "quenya": "Andúnë metta i aurëo (ná).",
+        "english": "Sunset (is) the end of the day.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_55cc90d1",
+        "quenya": "Á pusta!",
+        "english": "Stop!",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_3864aff2",
+        "quenya": "Meluvan lye oialë.",
+        "english": "I will love you forever.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_55093789",
+        "quenya": "Tarnes nó i köa.",
+        "english": "He/she stood at the back of the house.",
+        "type": [],
+        "eldamo-link": [
+            "6.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4288a61e",
+        "quenya": "Kennen nís. I nís nánë halla.",
+        "english": "I saw a woman. The woman was tall.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_deb0e6ed",
+        "quenya": "Altáriel Saila.",
+        "english": "Altáriel [Galadriel] the Wise.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f68049a6",
+        "quenya": "Ranko orko.",
+        "english": "The arm of an orc.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9edc55a9",
+        "quenya": "Á yalë i hesto.",
+        "english": "Call the captain.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_86d64bb4",
+        "quenya": "Telda atan.",
+        "english": "The last man.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4a3c8188",
+        "quenya": "I tyulma nirë kirya.",
+        "english": "The mast pushes a ship.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_bae0a099",
+        "quenya": "Eleni silir menelessë.",
+        "english": "Stars shine in the heavens.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_93e6c793",
+        "quenya": "Quetuvantë i aranen.",
+        "english": "They will speak to the king.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_aae4525b",
+        "quenya": "Túves kumna rotto.",
+        "english": "He/she found an empty cave.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8fbd8835",
+        "quenya": "I elda eressëa rimbessë.",
+        "english": "The elf [is] lonely in a crowd.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_5158272f",
+        "quenya": "Ui métima nótë.",
+        "english": "It is not [the] last number.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_adb01982",
+        "quenya": "Ilyë atani túler síra.",
+        "english": "All [the] men came today.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_db9eb570",
+        "quenya": "Samilvë fárëa massa.",
+        "english": "We (and you) have enough bread.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9716418e",
+        "quenya": "Á quanta i yulma, mekin.",
+        "english": "Fill the cup, please.",
+        "type": [],
+        "eldamo-link": [
+            "6.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ac6a2313",
+        "quenya": "Rauro atta tirnet i máma",
+        "english": "Two lions watched the sheep.",
+        "type": [],
+        "eldamo-link": [
+            "6.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_af7a9365",
+        "quenya": "I hesto quéta i ohtarin neldë.",
+        "english": "The captain is speaking to the three warriors.",
+        "type": [],
+        "eldamo-link": [
+            "6.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0f3d5253",
+        "quenya": "Atani yuquain tarir i andossë.",
+        "english": "Twenty men stand at/in the gate.",
+        "type": [],
+        "eldamo-link": [
+            "6.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_82644ee0",
+        "quenya": "Á anta min makil nin.",
+        "english": "Give one sword to me.",
+        "type": [],
+        "eldamo-link": [
+            "6.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_910e7d1c",
+        "quenya": "Yúyo nauko lórat mí mindon.",
+        "english": "Both dwarves are sleeping in the tower.",
+        "type": [],
+        "eldamo-link": [
+            "6.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_53074d63",
+        "quenya": "Minya elda tarnë ar’ i ailin.",
+        "english": "[The] first elf stood by the lake.",
+        "type": [],
+        "eldamo-link": [
+            "6.5"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_26cb1e7f",
+        "quenya": "Issë qualuva makilmen.",
+        "english": "Even he/she will die from [by means of] a sword.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8a6bae43",
+        "quenya": "Merin i elyë hiruva rainë.",
+        "english": "I want that even you will find peace.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d0bf1a87",
+        "quenya": "Intë lorir lómessë.",
+        "english": "Even they sleep at night.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2c84534d",
+        "quenya": "Mo koinë sina rottossë.",
+        "english": "Someone lived in this cave.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_23a50c5e",
+        "quenya": "I orkor nakanter sé mal ú hyé.",
+        "english": "The orcs slew him/her but not him/her [the other].",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c4cae1cb",
+        "quenya": "I nauko kennë i nér ar hye sérë i köassë.",
+        "english": "The dwarf saw the man [male] and he [the man] rested in the house.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_1f2db3a0",
+        "quenya": "Elvë uir alfírimë.",
+        "english": "Even we (including you) are not immortal.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a8ecfcd6",
+        "quenya": "Antuvan elden massali.",
+        "english": "I will give even you (plural) some bread.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7f5ec54a",
+        "quenya": "Túventë ma nöa.",
+        "english": "They discovered something yesterday.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_87dd1016",
+        "quenya": "Merin i mo rehta inyë.",
+        "english": "I want that someone save even me.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4d824ee0",
+        "quenya": "I hesto quentë i ohtaren ar hye mennë i ostonna.",
+        "english": "The captain spoke to the warrior and he [the warrior] went to the city.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f6d7d39a",
+        "quenya": "I hesto quentë i ohtaren ar mennes i ostonna.",
+        "english": "The captain spoke to the warrior and he [the captain] went to the city.",
+        "type": [],
+        "eldamo-link": [
+            "7.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7fe457c6",
+        "quenya": "I ronyo merë roita lopoldi.",
+        "english": "The hunting dog wants to chase rabbits.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c0c78dee",
+        "quenya": "Polil hlikë tuvë farna i tauressë.",
+        "english": "You can sneak to discover prey in the forest.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_25148a64",
+        "quenya": "Nurtaitas rehtanë i hína.",
+        "english": "To hide [or hiding] him/her saved the child.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_439a3e94",
+        "quenya": "Á telya faraitalyas enar.",
+        "english": "Finish your hunting it tomorrow.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_99e075ef",
+        "quenya": "Farië lamni anta matta lienyan.",
+        "english": "Hunting animals gives food to my people.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_fe1fdaa2",
+        "quenya": "Mennelmë i taurenna rembien.",
+        "english": "We [but not you] went to the forest for trapping.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_36000fd4",
+        "quenya": "I quessi aiwion (nár) márë pilin karien.",
+        "english": "The feathers of birds are good for arrow making.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_cc902e85",
+        "quenya": "I mundo rassë ui anda.",
+        "english": "The bull’s horn is not long.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6fcfc3e0",
+        "quenya": "Polin norta rokko ilya aurë.",
+        "english": "I can ride a horse every day.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_df26c6f2",
+        "quenya": "Aiwëo ráma samë quesseli.",
+        "english": "A bird’s wing has some feathers.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_41ad228e",
+        "quenya": "Hirnen quingarya nu i alda.",
+        "english": "I found her bow under the tree.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7f41dd6a",
+        "quenya": "Hiritanyas tana i nás raxessë.",
+        "english": "My finding it shows that she is in danger.",
+        "type": [],
+        "eldamo-link": [
+            "7.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7c0811ce",
+        "quenya": "Mennelmë endenna i taurëo.",
+        "english": "We [but not you] went to the centre of the forest.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_42f0cdaa",
+        "quenya": "I osto harë imbi ambor.",
+        "english": "The city sits among hills.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_cf280559",
+        "quenya": "I orkor ménar minna i rotto.",
+        "english": "The orcs are going into the cave.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_adc88b35",
+        "quenya": "Kenuvan i hesto lómessë.",
+        "english": "I will see the captain at night.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e71d736f",
+        "quenya": "I atani túler et i mindonillon.",
+        "english": "The men came out of the towers.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b7354c67",
+        "quenya": "I atani nakanter orkor makilínen.",
+        "english": "The men slew orcs with [by means of] swords.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_72888939",
+        "quenya": "I elda mennë ó i naukor i mindonna.",
+        "english": "The elf went with the dwarves to the tower.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7c146a9e",
+        "quenya": "I nissi túlar tanomello.",
+        "english": "The women are coming from there.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a1cb473c",
+        "quenya": "I nér tenkë i quenta tekilmen.",
+        "english": "The man [male] wrote the story with a pen.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_aef0ade4",
+        "quenya": "I aran apátië sundollo inganna i mindono.",
+        "english": "The king has walked from the base to the top of the tower.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_51ad0e78",
+        "quenya": "I köa harë endessë osto.",
+        "english": "The house sits in the centre of a city.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ce6f5ecb",
+        "quenya": "Tárië i oronto tirë or i nando.",
+        "english": "The height of the mountain watches above the valley.",
+        "type": [],
+        "eldamo-link": [
+            "7.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c0023231",
+        "quenya": "Mólë tyarnë i olanenyë turka.",
+        "english": "Work caused me to become strong [= that I became strong].",
+        "type": [],
+        "eldamo-link": [
+            "8.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_1d1ea784",
+        "quenya": "Mára kardalya tulyauva lyen alassë (or more simply tulyuva).",
+        "english": "Your good deed will bring you happiness.",
+        "type": [],
+        "eldamo-link": [
+            "8.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_bbaac8b8",
+        "quenya": "Naukoli ranker i orkoron makili.",
+        "english": "Some dwarves broke the orcs’ swords.",
+        "type": [],
+        "eldamo-link": [
+            "8.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_536e9d72",
+        "quenya": "Aiwi atambanier aldassen mí taurë.",
+        "english": "Birds have knocked on trees in the forest.",
+        "type": [],
+        "eldamo-link": [
+            "8.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_930fdc56",
+        "quenya": "Rokkor tukuvar lintë i raxa.",
+        "english": "Horses will pull the wagon swift[ly].",
+        "type": [],
+        "eldamo-link": [
+            "8.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a2b73e3c",
+        "quenya": "I sírë kúna pella i osto.",
+        "english": "The river bends beyond the city.",
+        "type": [],
+        "eldamo-link": [
+            "8.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_debb201a",
+        "quenya": "Man melilyë?",
+        "english": "Who do you love?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_83e1d839",
+        "quenya": "Ma i elda rëantë?",
+        "english": "Did the elf smile?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b3e6a00b",
+        "quenya": "Ma mikuvalyë ni?",
+        "english": "Will you kiss me?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_1bbf5537",
+        "quenya": "Massë i netti tyálar?",
+        "english": "Where are the girls playing?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9dce846d",
+        "quenya": "Manen polin fasta i aran?",
+        "english": "How can I please the king?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9b72d81c",
+        "quenya": "Ma i atani alassië?",
+        "english": "Are the men happy?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c7e0421f",
+        "quenya": "Mana hanquentalya?",
+        "english": "What is your answer?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f41143d5",
+        "quenya": "Man lálëa?",
+        "english": "Who is laughing?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c1766069",
+        "quenya": "Ma nántë avaldë?",
+        "english": "Are they excited?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6a84ea28",
+        "quenya": "Mallo i orkor túler?",
+        "english": "Where did the orcs come from?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_afd66669",
+        "quenya": "Ma kenuvalyë i hesto?",
+        "english": "Will you see the captain?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0a7f1abe",
+        "quenya": "Ma merilyë tirë i ohtari?",
+        "english": "Do you want to watch the warriors?",
+        "type": [],
+        "eldamo-link": [
+            "8.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ace4d40a",
+        "quenya": "Orkor ruhtaner i taurëo periandi.",
+        "english": "Orcs terrified the forest’s halflings.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_fd3ca287",
+        "quenya": "Soronyentë i orkor merner nahta te.",
+        "english": "They were afraid that orcs wanted to slay them.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_63c775c2",
+        "quenya": "Orkor tevir periandi ar naukor ar eldar ar atani.",
+        "english": "Orcs hate halflings and dwarves and elves and men.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_5ceb8ab0",
+        "quenya": "Hrávë orkor marner rottossen nu i oronti.",
+        "english": "Wild orcs dwelled in caves under the mountains.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d9d62def",
+        "quenya": "Nwalmë periandion fastanë i orkor.",
+        "english": "Torment of halflings pleased the orcs.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9508b3a8",
+        "quenya": "I periandi nainaner umbartinta.",
+        "english": "The halflings lamented their fate.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_bb12d52d",
+        "quenya": "Naikë ui ruhta naukor.",
+        "english": "Pain does not terrify dwarves.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a48a477d",
+        "quenya": "Raiquë naukor faraner orkor i tauressë.",
+        "english": "Angry dwarves hunted orcs in the forest.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_651c6650",
+        "quenya": "I orkor yarraner sossessë.",
+        "english": "The orcs growled in fear.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_ed82a38a",
+        "quenya": "Aha i naukoron nánë turwa.",
+        "english": "The rage of the dwarves was powerful.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_784e2574",
+        "quenya": "I eldar náner nairië i mahtië quantanë i taurë.",
+        "english": "The elves were sorrowful that fighting filled the forest.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f3932fb7",
+        "quenya": "Nier i eldaron sirinyer ve síri.",
+        "english": "The tears of the elves flowed like rivers.",
+        "type": [],
+        "eldamo-link": [
+            "8.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_07454526",
+        "quenya": "I harma-antaila aran alya.",
+        "english": "The treasure-giving king [is] rich.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_266fb676",
+        "quenya": "Mankaimë armar mirwë.",
+        "english": "Tradeable goods [are] precious.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_176015df",
+        "quenya": "I telpë-samila nauko ui penya.",
+        "english": "The silver-having dwarf is not poor.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_073a1baa",
+        "quenya": "Orkor merir tuvë lépima harma.",
+        "english": "Orcs want to find takeable treasure.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9224e593",
+        "quenya": "I mapinë makili vanwë.",
+        "english": "The seized swords [are] lost.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0adee488",
+        "quenya": "I ohtari norner minna i lantaina ando.",
+        "english": "The warriors ran into the fallen gate.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e400fd03",
+        "quenya": "I antaula perian penë telpë sí.",
+        "english": "The generous (prone to give) halfling lacks money now.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_cb92fe73",
+        "quenya": "I kavaitë mahar harë i köassë.",
+        "english": "The receptive (able to receive) merchant sits in the house.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_485a9d35",
+        "quenya": "Ilyë mahtailë ohtari qualuvar.",
+        "english": "All fighting warriors will die.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8008489a",
+        "quenya": "I kavinë annar rehtaner i nettion alassë.",
+        "english": "The received gifts saved the girls’ happiness.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9de9fe93",
+        "quenya": "I eldar antaner i lepinë armar i heston.",
+        "english": "The elves gave the taken goods to the captain.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e7e190a9",
+        "quenya": "I lepilë atani hander i mindonessë.",
+        "english": "The taking men stayed (= sat) in the tower.",
+        "type": [],
+        "eldamo-link": [
+            "9.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d17896b9",
+        "quenya": "Hrisë.",
+        "english": "[It] snows.",
+        "type": [],
+        "eldamo-link": [
+            "9.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b508424d",
+        "quenya": "Kantë i kirma.",
+        "english": "Made the knife = the knife was made.",
+        "type": [],
+        "eldamo-link": [
+            "9.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d3f486f1",
+        "quenya": "Mo namba taxi yá mo karasta köa.",
+        "english": "One hammers nails when one builds a house.",
+        "type": [],
+        "eldamo-link": [
+            "9.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b35c6987",
+        "quenya": "Tammar katinë taminwen.",
+        "english": "Tools [are] shaped with a forge.",
+        "type": [],
+        "eldamo-link": [
+            "9.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7e7d993d",
+        "quenya": "Ulë.",
+        "english": "It rains.",
+        "type": [],
+        "eldamo-link": [
+            "9.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_05c3bd3f",
+        "quenya": "Mo katë makil kurwenen.",
+        "english": "One fashions a sword with craft.",
+        "type": [],
+        "eldamo-link": [
+            "9.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_420fabef",
+        "quenya": "I emma nánë takina i aldassë taxenen.",
+        "english": "The picture was fastened on the wall with a nail.",
+        "type": [],
+        "eldamo-link": [
+            "9.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_32ae9316",
+        "quenya": "Orë i tamon karita makil.",
+        "english": "The smith feels an urge to make a sword.",
+        "type": [],
+        "eldamo-link": [
+            "9.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8b5f0f15",
+        "quenya": "I nís sernë linta i laupë.",
+        "english": "The woman sewed swift[ly] the shirt.",
+        "type": [],
+        "eldamo-link": [
+            "9.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_161126dc",
+        "quenya": "I periandi koller i korma andavë.",
+        "english": "The halflings bore the ring long [for a long time].",
+        "type": [],
+        "eldamo-link": [
+            "9.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d51ccbcc",
+        "quenya": "I eldar autuvar Endorello rongo.",
+        "english": "The elves will depart from Middle-earth soon.",
+        "type": [],
+        "eldamo-link": [
+            "9.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_08bab5c8",
+        "quenya": "I mai karina vakko nánë hirina i rottossë.",
+        "english": "The well made jacket was found in the cave.",
+        "type": [],
+        "eldamo-link": [
+            "9.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_1bdc44e1",
+        "quenya": "I rokko nornë linta.",
+        "english": "The horse ran swift[ly].",
+        "type": [],
+        "eldamo-link": [
+            "9.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_87745a89",
+        "quenya": "I rokko nornë lintië.",
+        "english": "The horse ran swiftly [= with swiftness].",
+        "type": [],
+        "eldamo-link": [
+            "9.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_294c1859",
+        "quenya": "I rokko nornë andavë.",
+        "english": "The horse ran long.",
+        "type": [],
+        "eldamo-link": [
+            "9.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b2d4712e",
+        "quenya": "I rokko nornë mai.",
+        "english": "The horse ran well.",
+        "type": [],
+        "eldamo-link": [
+            "9.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c4a989de",
+        "quenya": "I súrë ringa lá nöa.",
+        "english": "The wind [is] cold beyond yesterday [= is colder than yesterday].",
+        "type": [],
+        "eldamo-link": [
+            "9.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0b8e340c",
+        "quenya": "I kirma ammaika.",
+        "english": "The knife [is] very sharp.",
+        "type": [],
+        "eldamo-link": [
+            "9.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f00c6143",
+        "quenya": "I kollo ammussë hampion.",
+        "english": "The cloak [is] very soft among clothing.",
+        "type": [],
+        "eldamo-link": [
+            "9.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_87bd568c",
+        "quenya": "Mithril arnorna tinkoron.",
+        "english": "Mithril [is the] hardest [most hard] of metals.",
+        "type": [],
+        "eldamo-link": [
+            "9.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_b038d123",
+        "quenya": "I nauko anfinwa.",
+        "english": "The dwarf is very clever.",
+        "type": [],
+        "eldamo-link": [
+            "9.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_7bef10d2",
+        "quenya": "I atan finwa lá i nauko.",
+        "english": "The man is more clever than the dwarf.",
+        "type": [],
+        "eldamo-link": [
+            "9.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_408bd756",
+        "quenya": "I elda anfinwa quenion.",
+        "english": "The elf is very clever among people.",
+        "type": [],
+        "eldamo-link": [
+            "9.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_8df9688c",
+        "quenya": "I istar arfinwa ilyaron.",
+        "english": "The wizard [istar] is most clever of all.",
+        "type": [],
+        "eldamo-link": [
+            "9.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_4015a113",
+        "quenya": "Massë i asëa i asarta yuhtanë i naukon?",
+        "english": "Where [is] the healing herb which the doctor used on [for] the dwarf?",
+        "type": [],
+        "eldamo-link": [
+            "10.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e29ce287",
+        "quenya": "I atani i túler i ostonna tárar i andossë.",
+        "english": "The men who came to the city are standing in the gate.",
+        "type": [],
+        "eldamo-link": [
+            "10.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_19fc2f11",
+        "quenya": "I kirma yanen i hesto harnanë i elda nánë hirina nu i alda.",
+        "english": "The knife with which the captain wounded the elf was found under the tree.",
+        "type": [],
+        "eldamo-link": [
+            "10.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_9897f152",
+        "quenya": "I asarta yen quentel nöa hasuva i nauko.",
+        "english": "The doctor to whom you spoke yesterday will treat the dwarf.",
+        "type": [],
+        "eldamo-link": [
+            "10.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_cb4515eb",
+        "quenya": "Á hirë i atan ó ye i elda lendë.",
+        "english": "Find the man with whom the elf travelled.",
+        "type": [],
+        "eldamo-link": [
+            "10.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_6561b735",
+        "quenya": "Késan i köan yassë i elda marë.",
+        "english": "I am searching for (ces-[þ] + dative) the house in which the elf dwells.",
+        "type": [],
+        "eldamo-link": [
+            "10.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_1c8221c7",
+        "quenya": "Á tana nin i atan i samë i makil or á tana nin i atan sa samë i makil.",
+        "english": "Show me the man who has the sword.",
+        "type": [],
+        "eldamo-link": [
+            "10.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_cd39488f",
+        "quenya": "Istan i samil i hestova makil.",
+        "english": "I know that you have the captain’s sword.",
+        "type": [],
+        "eldamo-link": [
+            "10.1"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_14ca4865",
+        "quenya": "I nís marë tassë.",
+        "english": "The woman lives there.",
+        "type": [],
+        "eldamo-link": [
+            "10.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_3d283c8f",
+        "quenya": "Ma meril nin anta si lyen?",
+        "english": "Do you want for me to give this to you?",
+        "type": [],
+        "eldamo-link": [
+            "10.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_252d152c",
+        "quenya": "Á latya tana fendë.",
+        "english": "Open that door.",
+        "type": [],
+        "eldamo-link": [
+            "10.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c0018e9a",
+        "quenya": "Kenuvanyes en.",
+        "english": "I will see him/her then [future].",
+        "type": [],
+        "eldamo-link": [
+            "10.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_964be9da",
+        "quenya": "I nér tára enta ambossë.",
+        "english": "The man [male] is standing on yonder hill.",
+        "type": [],
+        "eldamo-link": [
+            "10.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_eb99b241",
+        "quenya": "Samin sinë kirmar.",
+        "english": "I have these knives.",
+        "type": [],
+        "eldamo-link": [
+            "10.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_466abfa6",
+        "quenya": "Ma antuval nin ta?",
+        "english": "Will you give me that?",
+        "type": [],
+        "eldamo-link": [
+            "10.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_fc83cf8c",
+        "quenya": "Merinyes sí or Merin sa sí.",
+        "english": "I want it now.",
+        "type": [],
+        "eldamo-link": [
+            "10.2"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_06813454",
+        "quenya": "Poituvan imni.",
+        "english": "I will clean myself.",
+        "type": [],
+        "eldamo-link": [
+            "10.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_bbe29ab9",
+        "quenya": "Hirnexë tauressë.",
+        "english": "He/she found himself/herself in a forest.",
+        "type": [],
+        "eldamo-link": [
+            "10.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d7cc749c",
+        "quenya": "Sampentë assa i ambossë.",
+        "english": "They dug a hole in the hill.",
+        "type": [],
+        "eldamo-link": [
+            "10.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_2aba8922",
+        "quenya": "Makil ve anda kirma (ná).",
+        "english": "A sword [is] like a long knife.",
+        "type": [],
+        "eldamo-link": [
+            "10.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_e3af8606",
+        "quenya": "Á rehta intyë!",
+        "english": "Save yourself (familiar)!",
+        "type": [],
+        "eldamo-link": [
+            "10.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_a78ba9b2",
+        "quenya": "Kestanexer manna i hesto mennë.",
+        "english": "They asked themselves where [whither] the captain went.",
+        "type": [],
+        "eldamo-link": [
+            "10.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_f473253f",
+        "quenya": "I netti tarner rindessë.",
+        "english": "The girls stood in a circle.",
+        "type": [],
+        "eldamo-link": [
+            "10.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_d30dcf12",
+        "quenya": "Ná imya atan.",
+        "english": "It is the same man.",
+        "type": [],
+        "eldamo-link": [
+            "10.3"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_0bc72335",
+        "quenya": "Istas quetë Quenya.",
+        "english": "He/she can (knows how to) speak Quenya.",
+        "type": [],
+        "eldamo-link": [
+            "10.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_110721fb",
+        "quenya": "Polis mahta.",
+        "english": "He/she can (is physically able to) fight.",
+        "type": [],
+        "eldamo-link": [
+            "10.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_c7436048",
+        "quenya": "Lertas quetë i aranen.",
+        "english": "He/she may (is free to) speak to the king.",
+        "type": [],
+        "eldamo-link": [
+            "10.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    },
+    {
+        "id": "s_65c21265",
+        "quenya": "Mauya sen quetë i aranen.",
+        "english": "He/she must (is compelled to) speak to the king.",
+        "type": [],
+        "eldamo-link": [
+            "10.4"
+        ],
+        "other-links": [],
+        "word-keys": [
+            ""
+        ],
+        "other-ids": []
+    }
+]

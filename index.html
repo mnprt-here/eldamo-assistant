@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Eldamo Assistant
+    </title>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <header>
+        <h1> Eldamo Assistant</h1>
+    </header>
+    <nav>
+        <button>Search</button>
+        <button>Revise</button>
+        <button>Quiz</button>
+    </nav>
+    <main>
+        <div id="main_board">
+            <div id="search">
+                <div id="search_form">
+                    <input type="text" id="search_query" placeholder="Enter a single word...">
+                    <button>Search</button>
+                    <br>
+
+                    <input type="radio" id="search_quenya" name="search_lang" value="Quenya" checked> 
+                    <label for="search_quenya">Quenya</label>
+
+                    <input type="radio" id="search_english" name="search_lang" value="English">
+                    <label for="search_english">English</label>
+                </div>
+                <div id="search_results">
+                    <p class="empty-state">Enter a word above to begin your search...</p>
+                </div>
+            </div>
+
+            <div id="revise" class="hidden">
+                <input type="text" id="revise_section" placeholder="e.g., 1.2.1, 1.2.2">
+                <select id="revise_section_list">
+                    <option value="Sentences">Sentences</option>
+                    <option value="Words">Words</option>
+                </select>
+                <button id="fetch_btn">Fetch</button>
+                
+                <div id="revise_results">
+                    <p class="empty-state">Fetch a section to review vocabulary or exercise sentences...</p>
+                </div>
+            </div>
+
+            <div id="quiz" class="hidden">
+                <input type="text" id="quiz_section" placeholder="e.g., 1, 2.1, 3.4.2">
+                <select id="quiz_data_type">
+                    <option value="Sentences">Sentences</option>
+                    <option value="Words">Words</option>
+                </select>
+                <select id="quiz_prompt_lang">
+                    <option value="quenya">Prompt: Quenya</option>
+                    <option value="english">Prompt: English</option>
+                    <option value="mixed">Prompt: Mixed</option>
+                </select>
+                <input type="checkbox" id="quiz_mode" value="random">
+                <label for="quiz_mode">Shuffle Questions</label>
+                <button id="quiz_generate_btn">Generate Quiz</button>
+                <button id="quiz_show_answers_btn" class="hidden">Show Answers</button>
+
+                <div id="quiz_results">
+                    <p class="empty-state">Generate a quiz to test your knowledge...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js">
+
+    </script>
+</body>
+</html>

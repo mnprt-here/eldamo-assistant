@@ -1,0 +1,8 @@
+# Python byproducts
+__pycache__/
+*.pyc
+venv/
+
+# OS byproducts
+.DS_Store
+Thumbs.db

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+    /* The Glassmorphism Glowing Background */
+    --bg-gradient: 
+        /* Soft purple orb top-left */
+        radial-gradient(circle at 15% 30%, rgba(130, 80, 220, 0.2) 0%, transparent 45%),
+        /* Brighter lavender orb bottom-right */
+        radial-gradient(circle at 85% 80%, rgba(164, 118, 237, 0.25) 0%, transparent 45%),
+        /* Deep violet orb top-center */
+        radial-gradient(circle at 50% 0%, rgba(80, 40, 140, 0.2) 0%, transparent 50%),
+        /* Base dark void color */
+        #0d0a14;
+    
+    /* Glassmorphism variables */
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-highlight: rgba(255, 255, 255, 0.15);
+    
+    /* Text & Accents */
+    --text-primary: #f0ecf4;
+    --text-muted: #9e95b0;
+    --accent-glow: #a476ed;
+    --accent-glow-subtle: rgba(164, 118, 237, 0.25);
+}
+
+body {
+    background: var(--bg-gradient);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header h1 {
+    font-weight: 500;
+    font-size: 2.2em;
+    color: var(--text-primary);
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* Glass Container */
+main {
+    width: 100%;
+    max-width: 650px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 30px;
+    border-radius: 24px;
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Navigation Tabs */
+nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+    background: rgba(0,0,0,0.2);
+    padding: 6px;
+    border-radius: 30px;
+    border: 1px solid var(--glass-border);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Main Buttons & Nav Buttons */
+button {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    background: transparent;
+    color: var(--text-muted);
+    border: none;
+    padding: 10px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    color: var(--text-primary);
+    background: var(--glass-highlight);
+}
+
+main button {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    color: var(--text-primary);
+}
+
+main button:hover {
+    border-color: var(--accent-glow);
+    background: var(--accent-glow-subtle);
+}
+
+/* Inputs & Selects */
+input[type="text"], select {
+    font-family: 'Inter', sans-serif;
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--text-primary);
+    border: 1px solid var(--glass-border);
+    padding: 12px 20px;
+    border-radius: 12px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: all 0.3s ease;
+    width: calc(100% - 40px); /* Responsive width */
+    max-width: 300px;
+}
+
+input[type="text"]::placeholder {
+    color: var(--text-muted);
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: var(--accent-glow);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* --- THE RADIO BUTTONS --- */
+/* 1. Hide the actual radio circle */
+input[type="radio"], input[type="checkbox"] {
+    display: none;
+}
+
+/* 2. Style the label to look like a pill */
+input[type="radio"] + label, input[type="checkbox"] + label {
+    display: inline-block;
+    padding: 8px 18px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+
+/* 3. Change style when the hidden radio is checked */
+input[type="radio"]:checked + label, input[type="checkbox"]:checked + label {
+    background: var(--accent-glow-subtle);
+    border-color: var(--accent-glow);
+    color: var(--text-primary);
+}
+
+/* --- THE CARDS --- */
+.result-card {
+    background: var(--glass-bg);
+    border: 2px solid var(--glass-border);
+    padding: 20px 25px;
+    border-radius: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.result-card:hover {
+    border-color: var(--accent-glow-subtle);
+}
+
+.result-card h3 {
+    margin: 0 0 5px 0;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.result-card p {
+    margin: 0;
+    color: var(--text-muted);
+}
+
+.result-card p strong {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.result-card hr {
+    display: none;
+}
+
+/* Utility Class */
+.hidden {
+    display: none !important;
+}
+
+/* --- ETHEREAL SCROLLBARS --- */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--glass-border);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-glow-subtle);
+}
+
+/* --- SMOOTH TAB TRANSITIONS --- */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#search:not(.hidden), #revise:not(.hidden), #quiz:not(.hidden) {
+    animation: fadeIn 0.4s ease forwards;
+}
+
+/* --- EMPTY STATE --- */
+.empty-state {
+    text-align: center;
+    color: var(--text-muted);
+    font-style: italic;
+    opacity: 0.6;
+    margin-top: 40px;
+    font-weight: 300;
+}
+
+/* --- THE WORKSHEET ANSWER KEY --- */
+.answer-key {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px dashed var(--glass-border); /* A soft divider */
+    animation: fadeIn 0.4s ease forwards; /* Smooth reveal */
+}
+
+.answer-key p {
+    color: var(--accent-glow); /* Give the answer a premium glow */
+    font-size: 1.1em;
+}
+
+.answer-key strong {
+    color: var(--text-primary);
+}
