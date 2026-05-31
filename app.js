@@ -66,6 +66,7 @@ class QueryEngine {
                 for (const link of w['eldamo-link']) {
                     if (isMatch(link, sectionTag)) {
                         results.push(w);
+                        break;
                     }
                 }
             }
@@ -77,6 +78,7 @@ class QueryEngine {
                 for (const link of s['eldamo-link']) {
                     if (isMatch(link, sectionTag)) {
                         results.push(s);
+                        break;
                     }
                 }
             }
@@ -245,6 +247,11 @@ class QuizEngine {
         for (const section of this.sections) {
             this.currentQuizItems = this.currentQuizItems.concat(this.db.getBySection(section, this.dataType));
         }
+
+        // Remove the duplicates of words that appear in multiple sections
+        this.currentQuizItems = Array.from(
+            new Map(this.currentQuizItems.map(item => [item.id, item])).values()
+        );
 
         if (this.dataType === 'words' && this.wordTypes.length != 0) {
             this.currentQuizItems = this.currentQuizItems.filter(item => {
