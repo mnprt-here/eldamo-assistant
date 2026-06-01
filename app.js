@@ -21,18 +21,18 @@ class QueryEngine {
 
     /**
      * Removes diacritics and lowercases the string for strict matching.
-     * @param {string} text - String that needs to be removed from diacritics
-     * @returns string with diacritics removed
+     * @param {String} text - String that needs to be removed from diacritics
+     * @returns {String} - string with diacritics removed
      */
-    normalizeString(text) {
+    static normalizeString(text) {
         if (!text) return "";
         return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     }
 
     /**
      * Quick access to the words and sentences if ids are known
-     * @param {string} itemId - id of the query word or sentence
-     * @returns word or sentence of the given id
+     * @param {String} itemId - id of the query word or sentence
+     * @returns - word or sentence of the given id
      */
     getById(itemId) {
        if (itemId.startsWith("w_")) {
@@ -46,8 +46,8 @@ class QueryEngine {
 
     /**
      * Returns all the words and sentences from the specific section or chapter.
-     * @param {string} sectionTag - The section identifier (e.g. '1.2.1')
-     * @param {string} target - Which database to search ('words', 'sentences', 'both'). Defaults to 'both'.
+     * @param {String} sectionTag - The section identifier (e.g. '1.2.1')
+     * @param {String} target - Which database to search ('words', 'sentences', 'both'). Defaults to 'both'.
      * @returns {Array} - Array of matching word/sentence objects
      */
     getBySection(sectionTag, target = 'both') {
@@ -89,7 +89,7 @@ class QueryEngine {
 
     /**
      * Returns the ids of sentences which contain the word with item_id, and vice-versa
-     * @param {string} itemId - id of the query word or sentence 
+     * @param {String} itemId - id of the query word or sentence 
      * @returns array of ids of the linked words or sentences
      */
     getLinkedItems(itemId) {
@@ -103,17 +103,17 @@ class QueryEngine {
     /**
      * Returns the complete detail of the query word from the database. 
      * The diacritics are not necessary.
-     * @param {string} query - word to search for, diacritics are not necessary
-     * @param {string} language - which language to serach in: quenya, or english
+     * @param {String} query - word to search for, diacritics are not necessary
+     * @param {String} language - which language to serach in: quenya, or english
      * @returns complete detail of the query word or sentence 
      */
     search(query, language) {
         const results = [];
-        query = this.normalizeString(query);
+        query = QueryEngine.normalizeString(query);
         language = language.toLowerCase();
 
         for (const word of Object.values(this.words)) {
-            const normalizedWord = this.normalizeString(word[language] || '');
+            const normalizedWord = QueryEngine.normalizeString(word[language] || '');
             if (normalizedWord.includes(query)) {
                 results.push(word);
             }
@@ -284,6 +284,340 @@ class QuizEngine {
     }
 }
 
+/**
+ * A pseudo interface for all games
+ */
+class Game {
+    constructor() {}
+}
+
+/**
+ * Wordle game class
+ */
+class Wordle extends Game {
+    /**
+     * Initialize the wordle board
+     * @param {QueryEngine} engine - A query engine containing words
+     * @param {number} wordLength - Length of the wordle word (Currenly 'clean' words of length 5 are most prominent in the database)
+     * @param {number} maxGuessNum - Maximum number of allowed guesses (use analyzeWordDifficulty() to get an estimate for it)
+     */
+    constructor(engine, wordLength = 5, maxGuessNum = 5) {
+        super();
+        this.wordLength = wordLength;
+        this.words = this.filterWords(Object.values(engine.words)); // Array of filtered (uncleaned) words
+        this.targetWord = "";
+        this.currentGuess = "";
+        this.currentGuessNum = 0;
+        this.maxGuessNum = maxGuessNum;
+        this.isGameOver = false;
+        this.colors = new Array(this.wordLength);
+        this.reset();
+    }
+
+    /**
+     * Reset the whole board
+     */
+    reset() {
+        this.setNewTargetWord();
+        this.currentGuess = "";
+        this.currentGuessNum = 0;
+        this.isGameOver = false;
+        this.colors.fill("absent");
+        // console.log(this.targetWord);
+    }
+
+    /**
+     * 
+     * @param {Object} words - A dictionary of unfiltered words
+     * @param {RegExp} regex - A cleanup regex (removes ()'s and -'s)
+     * @returns {Array} - An array of words that match the wordle criteria
+     */
+    filterWords(words, regex = /-|\s*\([^)]*\)/g) {
+        // Copy the cleaned words which have the correct length
+        return words.filter(item => item.quenya.replace(regex,"").length === this.wordLength)
+            .map(item => ({
+                ...item, // copying
+                quenya: item.quenya.replace(regex,"") // cleaning
+            }));
+    }
+
+    /**
+     * Extracts a random word from the this.words Array
+     * @returns {String} - A normalized word from the this.words Array
+     */
+    getRandomWord() {
+        if (this.words.length === 0) {
+            return null;
+        }
+        return QueryEngine.normalizeString(this.words[Math.floor(Math.random() * (this.words.length + 1))].quenya);
+    }
+
+    /**
+     * Sets a new target word for the board
+     */
+    setNewTargetWord() {
+        this.targetWord = this.getRandomWord();
+    }
+
+    /**
+     * Sets the current guess of the board
+     * @param {String} guess - A string containing new guess 
+     */
+    setNewCurrentGuess(guess) {
+        this.currentGuess = guess;
+    }
+
+    /**
+     * Compares the current guess and target word
+     * Also assigns the color property to the board tiles
+     */
+    compareCurrentGuess() {
+        if (this.currentGuess === this.targetWord) {
+            this.colors.fill("correct");
+            this.gameOver(true);
+        }
+        else {
+            let guessArr = this.currentGuess.split('');
+            let targetArr = this.targetWord.split('');
+            this.colors.fill("absent");
+            for (let i = 0; i < this.wordLength; i++) {
+                if (guessArr[i] === targetArr[i]) {
+                    this.colors[i] = "correct";
+                    targetArr[i] = null; // Cross off target
+                    guessArr[i] = null;  // Cross off guess
+                }
+            }
+            for (let i = 0; i < this.wordLength; i++) {
+                if (guessArr[i] === null) continue; // Skip if already green
+
+                const targetIndex = targetArr.indexOf(guessArr[i]);
+                if (targetIndex !== -1) {
+                    this.colors[i] = "present";
+                    targetArr[targetIndex] = null; // Cross off so it can't be used again
+                }
+            }
+            this.currentGuessNum += 1;
+            if (this.currentGuessNum >= this.maxGuessNum) {
+                this.gameOver(false);
+            }
+        }
+    }
+
+    /**
+     * Game Over
+     * @param {Boolean} isSuccess - Is the game ended with success or failure
+     */
+    gameOver(isSuccess) {
+        if (isSuccess) {
+            this.showToast("Good job.");
+        }
+        else {
+            this.showToast("Correct word: " + this.targetWord.toUpperCase());
+        }
+        this.isGameOver = true;
+    }
+
+    /**
+     * Processes the key input
+     * @param {String} key - The pressed key 
+     * @returns - void
+     */
+    handleInput(key) {
+        if (key === "enter") {
+            if (this.currentGuess.length < this.wordLength) return;
+            // Check if the word exist in the valid word list (restricted to the database)
+            const isValidWord = this.words.some(
+                word => QueryEngine.normalizeString(word.quenya) === this.currentGuess
+            );
+            if (!isValidWord) {
+                this.shakeCurrentRow();
+                return; 
+            }
+            this.compareCurrentGuess();
+            this.applyColorToRow();
+            this.applyColorToKeyboard();
+            // Consume the current guess
+            this.currentGuess = "";
+            
+        } else if (key === "backspace") {
+            // Remove the last letter
+            if (this.currentGuess.length > 0) {
+                this.setNewCurrentGuess(this.currentGuess.slice(0, -1));
+            }
+        } else {
+            // Add a letter (if there is space)
+            if (this.currentGuess.length < this.wordLength) {
+                // Replace all C's with K's
+                const normalizedKey = key.replace(/c/g,"k");
+                this.setNewCurrentGuess(this.currentGuess + normalizedKey);
+            }
+        }
+        this.updateWordleBoard();
+    }
+
+    /**
+     * Updates the text of current row of the board
+     * @returns - void
+     */
+    updateWordleBoard() {
+        const board = document.querySelectorAll(".wordle-board div");
+        if (!board || this.isGameOver) return;
+        
+        const startIndex = this.currentGuessNum * this.wordLength;
+        // Update only the tiles in the current row
+        for (let col = 0; col < this.wordLength; col++) {
+            // Inject the letter if it exists, otherwise fallback to "-"
+            board[startIndex + col].textContent = this.currentGuess[col] ? this.currentGuess[col].toUpperCase() : "-";
+        }
+
+        board.forEach((tile, index) => {
+            // Calculate which row this specific tile lives in
+            const tileRow = Math.floor(index / this.wordLength);
+            
+            // If the tile is in the current row, AND the game isn't over, highlight it
+            if (tileRow === this.currentGuessNum && !this.isGameOver) {
+                tile.classList.add("active-tile");
+            } else {
+                tile.classList.remove("active-tile");
+            }
+        });
+    }
+
+    /**
+     * Applies the color to the tiles of the appropriate row
+     * @returns - void
+     */
+    applyColorToRow() {
+        const board = document.querySelectorAll(".wordle-board div");
+        if (!board) return;
+        // Find the row of submitted guess (either current or previous)
+        const startIndex = (this.isGameOver && this.currentGuessNum < this.maxGuessNum) ? this.currentGuessNum * this.wordLength : (this.currentGuessNum-1) * this.wordLength;
+        // Failsafe to ignore negative out of bounds index
+        if (startIndex < 0) return;
+        for (let col = 0; col < this.wordLength; col++) {
+            // Set the correct color to the board tile
+            board[startIndex + col].classList.add(this.colors[col]);
+        }
+    }
+
+    /**
+     * Applies color to the on-screen keyboard keys
+     */
+    applyColorToKeyboard() {
+        for (let i = 0; i < this.wordLength; i++) {
+            const letter = this.currentGuess[i];
+            const color = this.colors[i];
+
+            // LINKING C AND K: If it's one of them, target both. Otherwise, just target the letter.
+            const keysToUpdate = (letter === "c" || letter === "k") ? ["c", "k"] : [letter];
+
+            for (const keyLetter of keysToUpdate){
+                const keyButton = document.querySelector(`.key[data-key="${keyLetter}"]`);
+                
+                if (!keyButton) continue;
+                
+                // Enforce color hierarchy: Correct > Present > Absent
+                if (keyButton.classList.contains("correct")) {
+                    continue; // Never downgrade a green key
+                }
+                
+                if (keyButton.classList.contains("present") && color === "absent") {
+                    continue; // Reject color downgrade
+                }
+                
+                // Strip any existing colors and apply the highest earned color
+                keyButton.classList.remove("present", "absent");
+                keyButton.classList.add(color);
+            }
+        }
+    }
+
+    /**
+     * Applies the shake effect for invalid word submission
+     * @returns - void
+     */
+    shakeCurrentRow() {
+        const board = document.querySelectorAll(".wordle-board div");
+        if (!board) return;
+
+        const startIndex = this.currentGuessNum * this.wordLength;
+
+        for (let col = 0; col < this.wordLength; col++) {
+            // Get the text tile in current row of the board
+            const tile = board[startIndex + col];
+            
+            // Add the animation class to the tile
+            tile.classList.add("shake");
+            
+            // Remove the class when the animation finishes
+            tile.addEventListener("animationend", () => {
+                tile.classList.remove("shake");
+                }, { once: true }
+            ); 
+        }
+    }
+
+    /**
+     * Shows a message pop-up
+     * @param {String} message - String of what to show
+     */
+    showToast(message) {
+        const toast = document.createElement("div");
+        toast.textContent = message;
+        toast.classList.add("wordle-toast");
+        
+        // Append it to the main games container
+        document.getElementById("games_content").appendChild(toast);
+
+        // Remove the toast after 3 seconds
+        setTimeout(() => {
+            toast.classList.add("fade-out");
+            // Wait for the fade animation to finish before removing from DOM
+            toast.addEventListener("animationend", () => toast.remove(), { once: true });
+        }, 3000);
+    }
+
+    /**
+     * A helper hunction to find appropriate this.maxGuessnum
+     * For a trap size of 3-4, this.maxGuessnum can be set to 5 for fairness
+     * For a bigger trap size, increase the this.maxGuessnum appropriately
+     * Desclaimer: Constructed by Gemini Pro
+     */
+    analyzeWordDifficulty() {
+        setTimeout(() => {
+            const wordList = this.words.map(w => QueryEngine.normalizeString(w.quenya));
+            const patterns = {};
+
+            // Map out every possible 1-letter difference (e.g., "m_kil")
+            wordList.forEach(word => {
+                for (let i = 0; i < 5; i++) {
+                    const pattern = word.slice(0, i) + "_" + word.slice(i + 1);
+                    if (!patterns[pattern]) patterns[pattern] = [];
+                    
+                    if (!patterns[pattern].includes(word)) {
+                        patterns[pattern].push(word);
+                    }
+                }
+            });
+
+            // Filter for dangerous traps (groups of 4 or more similar words)
+            const traps = Object.entries(patterns)
+                .filter(([pattern, group]) => group.length >= 4)
+                .sort((a, b) => b[1].length - a[1].length); // Sort biggest to smallest
+
+            // Print the report to the console
+            console.log("=== QUENYA WORDLE DIFFICULTY REPORT ===");
+            if (traps.length === 0) {
+                console.log("Zero deep traps found! 5 guesses is perfectly balanced.");
+            } else {
+                traps.forEach(([pattern, group]) => {
+                    console.log(`Pattern ${pattern.toUpperCase()} has ${group.length} words:`, group.join(", "));
+                });
+            }
+        }, 1000); // 1 second delay ensures the database is fully loaded first
+    }
+}
+
 // ---------------------------------------------------------
 // DOM MANIPULATION & UI LOGIC
 // ---------------------------------------------------------
@@ -339,6 +673,73 @@ function renderCards(results, container, mode="search", target="") {
 }
 
 /**
+ * Renders a clean Wordle board and an On-Screen keyboard
+ * @param {Wordle} wordleGame - The fully initialized wordle game
+ * @param {HTMLElement} container - The DOM element to inject HTML into
+ */
+function renderWordleBoard(wordleGame, container) {
+    container.innerHTML = "";
+    let htmlString = "";
+
+    // The wordle grid
+    htmlString += `<div class="wordle-board" style="--cols: ${wordleGame.wordLength}; --rows: ${wordleGame.maxGuessNum};">`;
+    for (let row = 0; row < wordleGame.maxGuessNum; row++) {
+        for (let col = 0; col < wordleGame.wordLength; col++) {
+            if (row===0) {
+                htmlString += `<div class="active-tile">-</div>`;
+            }
+            else{
+                htmlString += `<div>-</div>`;
+            }
+        }
+    }
+    htmlString += `</div>`;
+
+    // Add a custom On-Screen Keyboard
+    htmlString += `
+    <div id="keyboard-container">
+        <div class="keyboard-row">
+        <button class="key" data-key="q">Q</button>
+        <button class="key" data-key="w">W</button>
+        <button class="key" data-key="e">E</button>
+        <button class="key" data-key="r">R</button>
+        <button class="key" data-key="t">T</button>
+        <button class="key" data-key="y">Y</button>
+        <button class="key" data-key="u">U</button>
+        <button class="key" data-key="i">I</button>
+        <button class="key" data-key="o">O</button>
+        <button class="key" data-key="p">P</button>
+    </div>
+    <div class="keyboard-row">
+        <button class="key" data-key="a">A</button>
+        <button class="key" data-key="s">S</button>
+        <button class="key" data-key="d">D</button>
+        <button class="key" data-key="f">F</button>
+        <button class="key" data-key="g">G</button>
+        <button class="key" data-key="h">H</button>
+        <button class="key" data-key="j">J</button>
+        <button class="key" data-key="k">K</button>
+        <button class="key" data-key="l">L</button>
+    </div>
+    <div class="keyboard-row">
+        <button class="key action-key" data-key="enter">ENTER</button>
+        <button class="key" data-key="z">Z</button>
+        <button class="key" data-key="x">X</button>
+        <button class="key" data-key="c">C</button>
+        <button class="key" data-key="v">V</button>
+        <button class="key" data-key="b">B</button>
+        <button class="key" data-key="n">N</button>
+        <button class="key" data-key="m">M</button>
+        <button class="key action-key" data-key="backspace">⌫</button>
+    </div>
+    </div>
+    `;
+
+    // Inject the htmlString
+    container.innerHTML = htmlString;
+}
+
+/**
  * Interface between search page and javascript
  * @param {QueryEngine} engine - used to query the database
  * @param {QuizEngine} quizEngine - used to generate custom quiz
@@ -349,7 +750,8 @@ function initUI(engine, quizEngine) {
     const views = {
         'Search': document.getElementById('search'),
         'Revise': document.getElementById('revise'),
-        'Quiz': document.getElementById('quiz')
+        'Quiz': document.getElementById('quiz'),
+        'Games' : document.getElementById('games')
     };
 
     // Listen to all nav buttons to switch tabs
@@ -365,6 +767,7 @@ function initUI(engine, quizEngine) {
 
     /*
     // Listen to any clicks on the result board containing result cards
+    // Use this block for individual flashcard clicking
     document.getElementById('main_board').addEventListener('click', (e) => {
         const clickedCard = e.target.closest('.result-card');
         if (!clickedCard) return;
@@ -471,6 +874,56 @@ function initUI(engine, quizEngine) {
 
         const answers = document.querySelectorAll('.answer-key');
         answers.forEach(ans => ans.classList.remove('hidden'));
+    });
+
+    // --- 5. GAMES LOGIC ---
+    const gamesContent = document.getElementById('games_content')
+    const gamesWordleBtn = document.getElementById('games_wordle_btn');
+    
+    let wordleGame;
+    gamesWordleBtn.addEventListener('click', () => {
+        // Initiate the Wordle game
+        wordleGame = new Wordle(engine, 5, 5);
+        renderWordleBoard(wordleGame, gamesContent);
+        
+        // Focus on the gamesContent to read Keyboard inputs
+        gamesContent.focus();
+    });
+    // 5.1. Listen for Physical Keyboard
+    gamesContent.addEventListener("keydown", (e) => {
+        if (!wordleGame) return;
+        
+        if (wordleGame.isGameOver) {
+            wordleGame.reset();
+            // Clean the board
+            renderWordleBoard(wordleGame, gamesContent);
+            return;
+        }
+        
+        if (e.key === "Enter") {
+            wordleGame.handleInput("enter");
+        } else if (e.key === "Backspace") {
+            wordleGame.handleInput("backspace");
+        } else if (/^[a-zA-Z]$/.test(e.key)) { // Regex ensures it's a single letter
+            wordleGame.handleInput(e.key.toLowerCase());
+        }
+    });
+    // 5.2. Listen for On-Screen Keyboard if active
+    gamesContent.addEventListener("click", (e) => {
+        if (!wordleGame) return;
+
+        if (wordleGame.isGameOver) {
+            wordleGame.reset();
+            // Clean the board
+            renderWordleBoard(wordleGame, gamesContent);
+            return;
+        }
+        
+        // Check if the clicked element has the "key" class
+        const keyButton = e.target.closest('.key');
+        if (keyButton) {
+            wordleGame.handleInput(keyButton.dataset.key);
+        }
     });
 }
 
