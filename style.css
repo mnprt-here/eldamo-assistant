@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 :root {
     /* The Glassmorphism Glowing Background */
     --bg-gradient: 
@@ -61,6 +65,7 @@ main {
 /* Navigation Tabs */
 nav {
     display: flex;
+    flex-wrap: wrap; /* Allows buttons to stack into two rows if squeezed */
     gap: 10px;
     margin-bottom: 30px;
     justify-content: center;
@@ -68,7 +73,9 @@ nav {
     padding: 6px;
     border-radius: 30px;
     border: 1px solid var(--glass-border);
-    width: max-content;
+    
+    width: 100%; /* Allows it to shrink on phones */
+    max-width: max-content; /* Keeps it wrapped tightly around buttons on desktop */
     margin-left: auto;
     margin-right: auto;
 }
@@ -247,4 +254,188 @@ input[type="radio"]:checked + label, input[type="checkbox"]:checked + label {
 
 .answer-key strong {
     color: var(--text-primary);
+}
+
+/* --- WORDLE BOARD --- */
+#games_content:focus {
+    outline: none;
+}
+
+.wordle-board {
+    display: grid;
+    /* Tells the grid to create X columns, all equal width (1 fraction) */
+    grid-template-columns: repeat(var(--cols), 1fr); 
+    /* Optional: define the rows explicitly, though Grid usually auto-rows perfectly */
+    grid-template-rows: repeat(var(--rows), 1fr);
+    
+    gap: 8px; /* The space between letter tiles */
+    max-width: 350px; 
+    margin: 0 auto; /* Centers the board */
+}
+
+.wordle-board div {
+    background-color: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    text-align: center;
+    color: var(--text-muted);
+    aspect-ratio: 1 / 1; /* Forces the box to remain a perfect square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wordle-board div.active-tile {
+    color: var(--text-primary);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.wordle-board div.absent {
+    background-color: #3a3a3c;
+    border-color: #3a3a3c;
+    color: white;
+}
+
+.wordle-board div.present {
+    background-color: #b59f3b;
+    border-color: #b59f3b;
+    color: white;
+}
+
+.wordle-board div.correct {
+    background-color: #538d4e;
+    border-color: #538d4e;
+    color: white;
+}
+
+#keyboard-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 0; /* Centers it and adds space above */
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Space between rows */
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    gap: 6px; /* Space between individual keys */
+}
+
+.key {
+    flex: 1; /* Makes all standard keys equal width */
+    height: 50px;
+    background-color: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    color: var(--text-primary);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    /* Prevents users from accidentally selecting the text on double-tap */
+    user-select: none; 
+}
+
+.key.absent {
+    background-color: #3a3a3c;
+    border-color: #3a3a3c;
+    color: white;
+}
+
+.key.present {
+    background-color: #b59f3b;
+    border-color: #b59f3b;
+    color: white;
+}
+
+.key.correct {
+    background-color: #538d4e;
+    border-color: #538d4e;
+    color: white;
+}
+
+/* Make Enter and Backspace slightly wider than standard letters */
+.action-key {
+    flex: 1.5; 
+    font-size: 0.8rem;
+}
+
+/* A hover effect for desktop users */
+.key:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.shake {
+    animation: shake 0.4s ease-in-out;
+}
+
+
+/* The actual movement instructions */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-5px); }
+    40% { transform: translateX(5px); }
+    60% { transform: translateX(-5px); }
+    80% { transform: translateX(5px); }
+}
+
+/* The Pop-up Notification */
+.wordle-toast {
+    position: fixed; /* Spatially disconnects the toast from parent */
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%); /* Perfectly centers it horizontally */
+    background-color: var(--text-primary);
+    color: #0d0a14; /* Uses your dark void color for sharp contrast */
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    animation: toastFadeIn 0.3s ease-in-out;
+}
+
+/* Add the custom keyframes that preserve the centering */
+@keyframes toastFadeIn {
+    from { 
+        opacity: 0; 
+        transform: translate(-50%, 10px); /* Centers X, drops Y slightly */
+    }
+    to { 
+        opacity: 1; 
+        transform: translate(-50%, 0); /* Centers X, settles Y */
+    }
+}
+
+/* The Exit Animation */
+.wordle-toast.fade-out {
+    animation: toastFadeOut 0.4s ease-in-out forwards;
+}
+
+@keyframes toastFadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px; /* Reduce dead space on the edges */
+    }
+    
+    main {
+        padding: 15px; /* Thinner padding inside the glass box */
+    }
+
+    .keyboard-row {
+        gap: 4px; /* Squeeze keys slightly closer together */
+    }
+    
+    .key {
+        height: 42px; /* Slightly shorter keys */
+        font-size: 0.8rem; /* Scale down the text */
+        padding: 0; /* Remove any default button padding */
+    }
 }

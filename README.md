@@ -14,6 +14,8 @@ All the features are restricted to the [New-Quenya course](https://eldamo.org/in
     * Prompt modes: Quenya to English, English to Quenya, or Mixed.
     * Shuffle question order to stop the brain from recalling answers by pattern.
     * "Show Answers" to reveal the translation.
+* **Game Mode:** Games to test vocabulary
+    * Wordle: A classic wordle game from root words (no hyphens or extended forms, restricted to the words in the course)
 
 ## Usage: Search Parameters & Section Tags
 

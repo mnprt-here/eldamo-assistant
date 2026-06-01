@@ -16,6 +16,7 @@
         <button>Search</button>
         <button>Revise</button>
         <button>Quiz</button>
+        <button>Games</button>
     </nav>
     <main>
         <div id="main_board">
@@ -66,6 +67,14 @@
 
                 <div id="quiz_results">
                     <p class="empty-state">Generate a quiz to test your knowledge...</p>
+                </div>
+            </div>
+
+            <div id="games" class = "hidden">
+                <button id="games_wordle_btn">Wordle</button>
+                <!-- tabindex allows the div to be focusable, -1 disables tab key control -->
+                <div id="games_content" tabindex="-1">
+                    <p class="empty-state">Select a game to launch...</p>
                 </div>
             </div>
         </div>
