@@ -6,16 +6,16 @@ This application is rigidly designed around my personal preferences, i.e. worksh
 
 ## Features
 
-All the features are restricted to the [New-Quenya course](https://eldamo.org/intro-quenya/index.html). For etymology or other details, please visit [Eldamo](https://eldamo.org).
+Revise and Quiz are restricted to the [Neo-Quenya course](https://eldamo.org/intro-quenya/index.html). For etymology or other details, please visit [Eldamo](https://eldamo.org).
 
-* **Instant Search:** Seek words in both Quenya and English. 
+* **Instant Search:** Seek words in both Neo-Quenya and English. 
 * **Revise Mode:** Fetch and review a specific section of vocabulary and sentences.
 * **Quiz Mode:** Customizable worksheets.
     * Prompt modes: Quenya to English, English to Quenya, or Mixed.
     * Shuffle question order to stop the brain from recalling answers by pattern.
     * "Show Answers" to reveal the translation.
-* **Game Mode:** Games to test vocabulary
-    * Wordle: A classic wordle game from root words (no hyphens or extended forms, restricted to the words in the course)
+* **Game Mode:** Games to test your vocabulary
+    * Wordle: A classic wordle game from Neo-Quenya root words (no hyphens or extended forms)
 
 ## Usage: Search Parameters & Section Tags
 

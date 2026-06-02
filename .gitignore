@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 venv/
 
+# VS Code
+.vscode
+
 # OS byproducts
 .DS_Store
 Thumbs.db

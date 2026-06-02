@@ -312,6 +312,8 @@ class Wordle extends Game {
         this.isGameOver = false;
         this.colors = new Array(this.wordLength);
         this.reset();
+        /* To test the word difficulty */
+        // this.analyzeWordDifficulty()
     }
 
     /**
@@ -511,7 +513,7 @@ class Wordle extends Game {
             // LINKING C AND K: If it's one of them, target both. Otherwise, just target the letter.
             const keysToUpdate = (letter === "c" || letter === "k") ? ["c", "k"] : [letter];
 
-            for (const keyLetter of keysToUpdate){
+            for (const keyLetter of keysToUpdate) {
                 const keyButton = document.querySelector(`.key[data-key="${keyLetter}"]`);
                 
                 if (!keyButton) continue;
@@ -717,13 +719,13 @@ function renderWordleBoard(wordleGame, container) {
         <button class="key" data-key="f">F</button>
         <button class="key" data-key="g">G</button>
         <button class="key" data-key="h">H</button>
-        <button class="key" data-key="j">J</button>
+        <button class="key absent" data-key="j">J</button>
         <button class="key" data-key="k">K</button>
         <button class="key" data-key="l">L</button>
     </div>
     <div class="keyboard-row">
         <button class="key action-key" data-key="enter">ENTER</button>
-        <button class="key" data-key="z">Z</button>
+        <button class="key absent" data-key="z">Z</button>
         <button class="key" data-key="x">X</button>
         <button class="key" data-key="c">C</button>
         <button class="key" data-key="v">V</button>
@@ -741,10 +743,11 @@ function renderWordleBoard(wordleGame, container) {
 
 /**
  * Interface between search page and javascript
- * @param {QueryEngine} engine - used to query the database
+ * @param {QueryEngine} courseEngine - used to query the course database
  * @param {QuizEngine} quizEngine - used to generate custom quiz
+ * @param {QueryEngine} fullEngine - used to query the full database
  */
-function initUI(engine, quizEngine) {
+function initUI(courseEngine, quizEngine, fullEngine) {
     // --- 1. NAVIGATION LOGIC ---
     const navButtons = document.querySelectorAll('nav button');
     const views = {
@@ -798,7 +801,7 @@ function initUI(engine, quizEngine) {
             searchResults.innerHTML = "";
             return;
         }
-        results = engine.search(query, lang);
+        results = fullEngine.search(query, lang);
         renderCards(results, searchResults, "search", "words");
     });
 
@@ -810,12 +813,12 @@ function initUI(engine, quizEngine) {
 
     fetchBtn.addEventListener('click', () => {
         const sectionTag = reviseSectionInput.value.trim();
-        // Force to lowercase to match your engine's expectations ('words' or 'sentences')
+        // Force to lowercase to match your courseEngine's expectations ('words' or 'sentences')
         const target = reviseSectionList.value.toLowerCase(); 
 
         if (!sectionTag) return;
 
-        results = engine.getBySection(sectionTag, target);
+        results = courseEngine.getBySection(sectionTag, target);
         renderCards(results, reviseResultsContainer, "search", target);
     });
 
@@ -883,7 +886,7 @@ function initUI(engine, quizEngine) {
     let wordleGame;
     gamesWordleBtn.addEventListener('click', () => {
         // Initiate the Wordle game
-        wordleGame = new Wordle(engine, 5, 5);
+        wordleGame = new Wordle(fullEngine, 5, 6);
         renderWordleBoard(wordleGame, gamesContent);
         
         // Focus on the gamesContent to read Keyboard inputs
@@ -930,17 +933,24 @@ function initUI(engine, quizEngine) {
 async function loadDatabase() {
     try {
         let response = await fetch('./database/quenya-english-words.json');
-        wordsDatabase = await response.json();
+        courseWordsDatabase = await response.json();
         
         response = await fetch('./database/quenya-english-exercise-sentences.json');
-        sentencesDatabase = await response.json();
+        courseSentencesDatabase = await response.json();
 
-        console.log("Database loaded. Total words: ", wordsDatabase.length);
-        console.log("Total sentences: ", sentencesDatabase.length);
+        response = await fetch('./database/words-nq.json');
+        fullWordsDatabase = await response.json();
 
-        const engine = new QueryEngine(wordsDatabase, sentencesDatabase);
-        const quizEngine = new QuizEngine(engine);
-        initUI(engine, quizEngine);
+        console.log("Database loaded. Total words: ", courseWordsDatabase.length);
+        console.log("Total sentences: ", courseSentencesDatabase.length);
+        console.log("Full Quenya Database loaded. Total words: ", fullWordsDatabase.length);
+
+        const courseEngine = new QueryEngine(courseWordsDatabase, courseSentencesDatabase);
+        const quizEngine = new QuizEngine(courseEngine);
+
+        // Engine containing vocabulary only
+        const fullEngine = new QueryEngine(fullWordsDatabase, [])
+        initUI(courseEngine, quizEngine, fullEngine);
 
     } catch (error) {
         console.error("Failed to load database: ", error);
