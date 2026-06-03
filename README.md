@@ -1,6 +1,6 @@
 # Eldamo Assistant
 
-A client-side web application designed to help learners study Neo-Quenya vocabulary and exercise sentences, directly complementing the [Eldamo course](https://eldamo.org/intro-quenya/index.html). This is not supposed to replace Eldamo, but act as a revision/test board. The database is built statically, so any changes to the original course will not reflect instantly here, and would require a manual data update. So, for any conflict or typos, [Eldamo](https://eldamo.org) has the trust priority.
+A client-side web application designed to help learners study Neo-Quenya vocabulary and exercise sentences, directly complementing the [Eldamo course](https://eldamo.org/intro-quenya/index.html). Some features like search and Games are also available for Neo-Sindarin now. This is not supposed to replace Eldamo, but act as a revision/test board. The database is built statically, so any changes to the original course will not reflect instantly here, and would require a manual data update. So, for any conflict or typos, [Eldamo](https://eldamo.org) has the trust priority.
 
 This application is rigidly designed around my personal preferences, i.e. worksheets for quiz instead of flashcards (this forces me to write my answers on paper in one go, good for long term memory), segregating words and sentences by sections and not by their type, etc. Though the Engine has the capability (and functions) to segregate words by their types (nouns, verbs, adverbs, etc.), it is not connected to the HTML. If you want to customize the app based on your own preferences, the functionality is already there, but you will have to connect it to the front-end yourself. You may contact me if you need help parsing the code.
 
@@ -8,14 +8,14 @@ This application is rigidly designed around my personal preferences, i.e. worksh
 
 Revise and Quiz are restricted to the [Neo-Quenya course](https://eldamo.org/intro-quenya/index.html). For etymology or other details, please visit [Eldamo](https://eldamo.org).
 
-* **Instant Search:** Seek words in both Neo-Quenya and English. 
+* **Instant Search:** Seek words in Neo-Quenya, Neo-Sindarin, and English. Remember to change the language from the dropdown on the top-right of the page.
 * **Revise Mode:** Fetch and review a specific section of vocabulary and sentences.
 * **Quiz Mode:** Customizable worksheets.
     * Prompt modes: Quenya to English, English to Quenya, or Mixed.
     * Shuffle question order to stop the brain from recalling answers by pattern.
     * "Show Answers" to reveal the translation.
 * **Game Mode:** Games to test your vocabulary
-    * Wordle: A classic wordle game from Neo-Quenya root words (no hyphens or extended forms)
+    * Wordle: A classic wordle game from Neo-Quenya and Neo-Sindarin root words (no hyphens or extended forms)
 
 ## Usage: Search Parameters & Section Tags
 
