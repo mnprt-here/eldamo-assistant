@@ -44,6 +44,35 @@ Since this is a strictly client-side application, running it locally is incredib
 3.  *(Note)* You may need a simple local server (like VS Code's Live Server) to bypass browser CORS restrictions for local files.
 4.  If you update the raw CSV database, please run builder.py to rebuild the JSON database.
 
+## How to add other Tolkien languages to the app
+
+You'll first need to download the [Eldamo lexion](https://github.com/pfstrack/eldamo/releases) as there's no landing page for browsing the options. Go to the folder `eldamo-x.x.xx/content/word-indexes/` and copy the desired language data to the Eldamo Assistant's [database](./database/) folder. Open the [html_scrapper.py](./html_scrapper.py) and set the `language_id` to match your html data file. Set the `uiLabel` to what you want to see on the Eldamo Assistant page, and a `search_key` for the `QueryEngine` to extract correct words from the database. Both `uiLabel` and `search_key` can be the same value. Running the scrapper will generate a `JSON` file with the same name. Use that name to load the `JSON` in the `loadDatabase()` function of the [app.js](./app.js). For example, to load Neo-Quenya, you do
+
+```js
+response = await fetch('./database/words-nq.json');
+fullWordsDatabaseNQ = await response.json();
+```
+
+Add your new database to the `fullEngines`.
+
+```js
+const fullEngines = {
+    ..., // Other engines
+    [fullWordsDatabaseNQ.meta.languageID]: new QueryEngine(fullWordsDatabaseNQ, [])
+};
+```
+
+Finally, add the option to select the new language in the [index.html](./index.html). Remember to match the `value` to the `language_id` you used.
+
+```
+<select id="global_lang_selector" class="corner-utility" name="Languages">
+    <!-- Previous options -->
+    <option value="nq">Neo-Quenya</option>
+</select>
+```
+
+> **_NOTE_:** I have set specific rules in [html_scrapper.py](./html_scrapper.py) to decide which word is kept in the database. You may change them as per your requirement. For example, I reject all the words that start with a punctuation mark.
+
 ## Disclaimer
 
 I am a back-end programmer, and this is my first ever front-end project. If anything breaks, please be a little kinder in your feedback. Since I don't have any background in stylizing web pages, the CSS file was generated completely by an AI (Gemini Pro).
