@@ -49,6 +49,18 @@ header h1 {
     margin-bottom: 30px;
 }
 
+.corner-utility {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;       
+    width: auto;       
+    max-width: 140px;
+    padding: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    z-index: 1000;
+}
+
 /* Glass Container */
 main {
     width: 100%;
