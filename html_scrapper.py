@@ -3,7 +3,10 @@ import hashlib
 import bs4
 import re
 
-html_data_file   = "./database/words-nq.html"
+uiLabel = 'Neo-Quenya'
+search_key = 'quenya'
+language_id = 'nq'
+html_data_file   = f"./database/words-{language_id}.html"
 json_output_file = re.sub(r'.html$', '.json', html_data_file)
 
 with open(html_data_file, "r", encoding='utf-8') as f:
@@ -12,7 +15,14 @@ with open(html_data_file, "r", encoding='utf-8') as f:
 soup = bs4.BeautifulSoup(html_content, 'html.parser')
 
 words = soup.select('dt')
-polished_data = []
+polished_data = {
+    "meta" : {
+        "languageID" : language_id,
+        "uiLabel" : uiLabel,
+        "searchKey" : search_key
+    },
+    "data" : []
+}
 # To get the English translation (always inside ""s)
 pattern = r'[“"]([^”"]+)[”"]'
 for dt in words:
@@ -35,32 +45,32 @@ for dt in words:
                     continue
             else:
                 continue
-        _quenya = _span.text.strip()
+        _lang = _span.text.strip()
         # If the word starts with a punctuation or digit or underscore, reject it
-        if re.search(r'^[\W\d_]', _quenya):
+        if re.search(r'^[\W\d_]', _lang):
             continue
         
         # Remove the super/sub scripts
         # \d removes all standard and superscript/subscript numbers (1, 2, ¹, ², ₁)
         # \u2070-\u209F and \u00B2\u00B3\u00B9 catch any other weird Unicode sub/superscript blocks
         # \u1D00-\u1D7F catches phonetic superscript letters (like ⁿ)
-        _quenya = re.sub(r'[\d\u2070-\u209F\u00B2\u00B3\u00B9\u1D00-\u1D7F]+', '', _quenya)
-        _quenya = re.sub(r'c','k', _quenya)
+        _lang = re.sub(r'[\d\u2070-\u209F\u00B2\u00B3\u00B9\u1D00-\u1D7F]+', '', _lang)
+        _lang = re.sub(r'c','k', _lang)
 
         # Split word types with multiple types
         _word_type = _i_tag.text.strip().split(' and ') if _i_tag else ""
 
         # Assign a unique hash id to the data
-        _raw_id = f"{_quenya}{_english}"
+        _raw_id = f"{_lang}{_english}"
         # Covert it to hash, and truncate the id to save memory
         _hash = hashlib.md5(_raw_id.encode("utf-8")).hexdigest()[:8]
         # Prefix is used to differentiate between words and sentences
         _id = f"w_{_hash}"
 
         # Append to the data
-        polished_data.append({
+        polished_data['data'].append({
             'id': _id,
-            'quenya': _quenya,
+            search_key: _lang,
             'english': _english,
             'type': _word_type,
             'eldamo-link': [],

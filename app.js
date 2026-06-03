@@ -8,14 +8,20 @@ class QueryEngine {
      * @param {Array} sentencesDatabase 
      */
     constructor(wordsDatabase, sentencesDatabase) {
-        this.words = wordsDatabase.reduce((accumulator, word) => {
+        this.meta = wordsDatabase.meta
+        this.words = wordsDatabase.data.reduce((accumulator, word) => {
             accumulator[word.id] = word;
             return accumulator;
         }, {});
-        this.sentences = sentencesDatabase.reduce((accumulator, sentence) => {
-            accumulator[sentence.id] = sentence;
-            return accumulator;
-        }, {});
+        if (sentencesDatabase.data){
+            this.sentences = sentencesDatabase.data.reduce((accumulator, sentence) => {
+                accumulator[sentence.id] = sentence;
+                return accumulator;
+            }, {});
+        }
+        else {
+            this.sentences = [];
+        }
 
     }
 
@@ -104,7 +110,7 @@ class QueryEngine {
      * Returns the complete detail of the query word from the database. 
      * The diacritics are not necessary.
      * @param {String} query - word to search for, diacritics are not necessary
-     * @param {String} language - which language to serach in: quenya, or english
+     * @param {String} language - which language to serach in
      * @returns complete detail of the query word or sentence 
      */
     search(query, language) {
@@ -303,6 +309,7 @@ class Wordle extends Game {
      */
     constructor(engine, wordLength = 5, maxGuessNum = 5) {
         super();
+        this.meta = engine.meta;
         this.wordLength = wordLength;
         this.words = this.filterWords(Object.values(engine.words)); // Array of filtered (uncleaned) words
         this.targetWord = "";
@@ -336,10 +343,10 @@ class Wordle extends Game {
      */
     filterWords(words, regex = /-|\s*\([^)]*\)/g) {
         // Copy the cleaned words which have the correct length
-        return words.filter(item => item.quenya.replace(regex,"").length === this.wordLength)
+        return words.filter(item => item[this.meta.searchKey].replace(regex,"").length === this.wordLength)
             .map(item => ({
                 ...item, // copying
-                quenya: item.quenya.replace(regex,"") // cleaning
+                [this.meta.searchKey]: item[this.meta.searchKey].replace(regex,"") // cleaning
             }));
     }
 
@@ -351,7 +358,7 @@ class Wordle extends Game {
         if (this.words.length === 0) {
             return null;
         }
-        return QueryEngine.normalizeString(this.words[Math.floor(Math.random() * (this.words.length + 1))].quenya);
+        return QueryEngine.normalizeString(this.words[Math.floor(Math.random() * (this.words.length + 1))][this.meta.searchKey]);
     }
 
     /**
@@ -429,7 +436,7 @@ class Wordle extends Game {
             if (this.currentGuess.length < this.wordLength) return;
             // Check if the word exist in the valid word list (restricted to the database)
             const isValidWord = this.words.some(
-                word => QueryEngine.normalizeString(word.quenya) === this.currentGuess
+                word => QueryEngine.normalizeString(word[this.meta.searchKey]) === this.currentGuess
             );
             if (!isValidWord) {
                 this.shakeCurrentRow();
@@ -587,7 +594,7 @@ class Wordle extends Game {
      */
     analyzeWordDifficulty() {
         setTimeout(() => {
-            const wordList = this.words.map(w => QueryEngine.normalizeString(w.quenya));
+            const wordList = this.words.map(w => QueryEngine.normalizeString(w[[this.meta.searchKey]]));
             const patterns = {};
 
             // Map out every possible 1-letter difference (e.g., "m_kil")
@@ -608,7 +615,7 @@ class Wordle extends Game {
                 .sort((a, b) => b[1].length - a[1].length); // Sort biggest to smallest
 
             // Print the report to the console
-            console.log("=== QUENYA WORDLE DIFFICULTY REPORT ===");
+            console.log("=== WORDLE DIFFICULTY REPORT ===");
             if (traps.length === 0) {
                 console.log("Zero deep traps found! 5 guesses is perfectly balanced.");
             } else {
@@ -630,8 +637,9 @@ class Wordle extends Game {
  * @param {HTMLElement} container - The DOM element to inject HTML into
  * @param {String} mode - Is it a search or quiz page?
  * @param {String} target - Is the card for words (to show the word types) or sentences?
+ * @param {String} searchKey - Key required to search the language property in results
  */
-function renderCards(results, container, mode="search", target="") {
+function renderCards(results, container, mode="search", target="", searchKey="quenya") {
     if (results.length === 0) {
         container.innerHTML = "<h3 class='empty-state'>No matches found in the archives.</h3>";
         return;
@@ -645,13 +653,13 @@ function renderCards(results, container, mode="search", target="") {
         else {
             wordTypeSuffix = "";
         }
-        const quenyaWord = item.quenya + wordTypeSuffix || "Unknown";
+        const langWord = item[searchKey] + wordTypeSuffix || "Unknown";
         const englishWord = item.english || "Unknown";
         
         if (mode === "quiz") {
-            const promptWord = (item.promptLang === "english") ? englishWord : quenyaWord;
-            const answerWord = (item.promptLang === "english") ? quenyaWord : englishWord;
-            const answerLabel = (item.promptLang === "english") ? "Quenya" : "English";
+            const promptWord = (item.promptLang === "english") ? englishWord : langWord;
+            const answerWord = (item.promptLang === "english") ? langWord : englishWord;
+            const answerLabel = (item.promptLang === "english") ? searchKey.toUpperCase() : "ENGLISH";
             
             htmlString += `
                 <div class="result-card">
@@ -665,7 +673,7 @@ function renderCards(results, container, mode="search", target="") {
             // The Standard Search/Revise Card
             htmlString += `
                 <div class="result-card">
-                    <h3>${quenyaWord}</h3>
+                    <h3>${langWord}</h3>
                     <p><strong>Translation:</strong> ${englishWord}</p>
                 </div>
             `;
@@ -745,9 +753,9 @@ function renderWordleBoard(wordleGame, container) {
  * Interface between search page and javascript
  * @param {QueryEngine} courseEngine - used to query the course database
  * @param {QuizEngine} quizEngine - used to generate custom quiz
- * @param {QueryEngine} fullEngine - used to query the full database
+ * @param {Object} fullEngines - used to access the full databases
  */
-function initUI(courseEngine, quizEngine, fullEngine) {
+function initUI(courseEngine, quizEngine, fullEngines) {
     // --- 1. NAVIGATION LOGIC ---
     const navButtons = document.querySelectorAll('nav button');
     const views = {
@@ -786,23 +794,38 @@ function initUI(courseEngine, quizEngine, fullEngine) {
 
     // Variable to store results across multiple events
     let results = [];
+    
+    // Chosen language
+    const langSelector = document.getElementById('global_lang_selector');
+
+    // Get the appropriate full database engine
+    const getActiveEngine = () => {
+        return fullEngines[langSelector.value] || fullEngines["nq"];
+    };
 
     // --- 2. SEARCH LOGIC ---
     const searchForm = document.getElementById("search_form");
     const searchQuery = document.getElementById("search_query");
     const searchResults = document.getElementById("search_results");
+    const searchRadio = document.getElementById("search_lang");
+    const searchLabel = document.querySelector('label[for="search_lang"]');
+
+    if (searchRadio && searchLabel) {
+        searchRadio.value = getActiveEngine().meta.searchKey;
+        searchLabel.textContent = getActiveEngine().meta.uiLabel; 
+    }
 
     searchForm.addEventListener('input', (e) => {
         // e.preventDefault();
         const query = searchQuery.value.trim();
-        const lang = document.querySelector('input[name="search_lang"]:checked')?.value;
+        const lang = document.querySelector('input[name="search_word"]:checked')?.value;
 
         if (!query || !lang) {
             searchResults.innerHTML = "";
             return;
         }
-        results = fullEngine.search(query, lang);
-        renderCards(results, searchResults, "search", "words");
+        results = getActiveEngine().search(query, lang);
+        renderCards(results, searchResults, "search", "words", getActiveEngine().meta.searchKey);
     });
 
     // --- 3. REVISE LOGIC ---
@@ -886,7 +909,7 @@ function initUI(courseEngine, quizEngine, fullEngine) {
     let wordleGame;
     gamesWordleBtn.addEventListener('click', () => {
         // Initiate the Wordle game
-        wordleGame = new Wordle(fullEngine, 5, 6);
+        wordleGame = new Wordle(getActiveEngine(), 5, 6);
         renderWordleBoard(wordleGame, gamesContent);
         
         // Focus on the gamesContent to read Keyboard inputs
@@ -928,6 +951,26 @@ function initUI(courseEngine, quizEngine, fullEngine) {
             wordleGame.handleInput(keyButton.dataset.key);
         }
     });
+
+    // --- 6. RESET Trigger ---
+    langSelector.addEventListener('change', () => {
+        
+        if (searchRadio && searchLabel) {
+            searchRadio.value = getActiveEngine().meta.searchKey;
+            searchLabel.textContent = getActiveEngine().meta.uiLabel; 
+        }
+        // Clear search
+        results = [];
+        document.getElementById("search_results").innerHTML = "";
+        document.getElementById("search_query").value = "";
+        
+        // Reset Wordle if the games tab is currently active
+        const gamesTab = document.getElementById('games');
+        if (!gamesTab.classList.contains('hidden') && wordleGame) {
+            wordleGame = new Wordle(getActiveEngine(), 5, 6);
+            renderWordleBoard(wordleGame, gamesContent);
+        }
+    });
 }
 
 async function loadDatabase() {
@@ -939,18 +982,25 @@ async function loadDatabase() {
         courseSentencesDatabase = await response.json();
 
         response = await fetch('./database/words-nq.json');
-        fullWordsDatabase = await response.json();
+        fullWordsDatabaseNQ = await response.json();
 
-        console.log("Database loaded. Total words: ", courseWordsDatabase.length);
-        console.log("Total sentences: ", courseSentencesDatabase.length);
-        console.log("Full Quenya Database loaded. Total words: ", fullWordsDatabase.length);
+        response = await fetch('./database/words-ns.json');
+        fullWordsDatabaseNS = await response.json();
+
+        console.log("Course Database loaded. Total words: ", courseWordsDatabase.data.length);
+        console.log("Course Database loaded. Total sentences: ", courseSentencesDatabase.data.length);
+        console.log("Full Neo-Quenya Database loaded. Total words: ", fullWordsDatabaseNQ.data.length);
+        console.log("Full Neo-Sindarin Database loaded. Total words: ", fullWordsDatabaseNS.data.length);
 
         const courseEngine = new QueryEngine(courseWordsDatabase, courseSentencesDatabase);
         const quizEngine = new QuizEngine(courseEngine);
 
-        // Engine containing vocabulary only
-        const fullEngine = new QueryEngine(fullWordsDatabase, [])
-        initUI(courseEngine, quizEngine, fullEngine);
+        // Engines containing full vocabulary
+        const fullEngines = {
+            [fullWordsDatabaseNQ.meta.languageID]: new QueryEngine(fullWordsDatabaseNQ, []),
+            [fullWordsDatabaseNS.meta.languageID]: new QueryEngine(fullWordsDatabaseNS, [])
+        };
+        initUI(courseEngine, quizEngine, fullEngines);
 
     } catch (error) {
         console.error("Failed to load database: ", error);

@@ -4,9 +4,11 @@ from config import WORDS_JSON, SENTENCES_JSON
 
 def smoke_test(word_to_check):
     with open(WORDS_JSON, 'r', encoding='utf-8') as f:
-        words = json.load(f)
+        database = json.load(f)
+        words = database['data']
     with open(SENTENCES_JSON, 'r', encoding='utf-8') as f:
-        sentences = {s['id']: s for s in json.load(f)}
+        database = json.load(f)
+        sentences = {s['id']: s for s in database['data']}
 
     # Find the word
     target = next((w for w in words if w['quenya'] == word_to_check), None)

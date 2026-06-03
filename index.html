@@ -9,6 +9,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
+    <select id="global_lang_selector" class="corner-utility" name="Languages">
+        <option value="nq">Neo-Quenya</option>
+        <option value="ns">Neo-Sindarin</option>
+    </select>
     <header>
         <h1> Eldamo Assistant</h1>
     </header>
@@ -25,10 +29,10 @@
                     <input type="text" id="search_query" placeholder="Enter a single word...">
                     <br>
 
-                    <input type="radio" id="search_quenya" name="search_lang" value="Quenya" checked> 
-                    <label for="search_quenya">Quenya</label>
+                    <input type="radio" id="search_lang" name="search_word" value="Quenya" checked> 
+                    <label for="search_lang">Quenya</label>
 
-                    <input type="radio" id="search_english" name="search_lang" value="English">
+                    <input type="radio" id="search_english" name="search_word" value="English">
                     <label for="search_english">English</label>
                 </div>
                 <div id="search_results">

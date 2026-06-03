@@ -30,7 +30,8 @@ class QueryEngine:
         """
         try:
             with open(filepath, encoding=encoding) as _file:
-                return json.load(_file)
+                database = json.load(_file)
+                return database['data']
         except OSError as _e:
             print(f"Read Error: Could not access{filepath}. Systems says {_e}.")
             return []

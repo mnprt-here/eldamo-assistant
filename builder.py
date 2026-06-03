@@ -11,7 +11,14 @@ def build(input_file, output_file, prefix, registry=None):
     :param prefix: Used to differentiate the unique data ids between different data types
     :param registry: Used to check any duplication of id's
     """
-    _polished_data = []
+    _polished_data = {
+        "meta" : {
+            "languageID" : "nq",
+            "uiLabel" : "Neo-Quenya",
+            "searchKey" : "quenya"
+        },
+        "data" : []
+    }
     if registry is None:
         registry = {}
     
@@ -59,7 +66,7 @@ def build(input_file, output_file, prefix, registry=None):
                         'word-keys': _keys,
                         'other-ids': []
                     }
-                    _polished_data.append(_data_entry)
+                    _polished_data['data'].append(_data_entry)
                     registry[_id] = _data_entry
         try:
             # Create the corresponding JSON file with polished data
